@@ -1,0 +1,260 @@
+country_decisions = {
+		
+	urbanisation = {
+		color = { 166  0  0 }
+		potential = {
+			NOT = { has_country_flag = urbanisation_taken }
+			NOT = { has_country_flag = X_POR_economic_golden_age_cflag }
+		}
+		allow = {
+			adm_power = 100
+			dip_power = 100
+			mil_power = 100
+			splendor = 200
+			if = {
+				limit = { tag = POR }
+				hidden_trigger = {
+					NOT = { has_country_flag = X_POR_economic_golden_age_cflag }
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "urbanisation"
+				duration = 18250
+			}
+			if = {
+				limit = { NOT = { tag = POR } }
+				set_country_flag = urbanisation_taken
+			}
+			else = {
+				set_country_flag = X_POR_economic_golden_age_cflag
+			}
+		}
+	}
+	
+	sm_hire_explorer = {
+		color = { 166  0  0 }
+		potential = {
+				is_bankrupt = no
+				ai = no
+				NOT = { has_country_modifier = hired_explorer }
+			}
+			allow = {
+				always = yes
+			}
+			effect = {
+				add_years_of_income = -0.1
+				create_explorer = { tradition = 10 }
+				add_country_modifier = {
+				name = "hired_explorer"
+				duration = 1825
+				hidden = yes
+				}
+			}
+		}	
+		
+	sm_hire_conquistador = {
+		color = { 166  0  0 }
+		potential = {
+				is_bankrupt = no
+				ai = no
+				NOT = { has_country_modifier = hired_conquistador }
+			}
+			allow = {
+				always = yes
+			}
+			effect = {
+				add_years_of_income = -0.2
+				create_conquistador = { tradition = 10 }
+				add_country_modifier = {
+				name = "hired_conquistador"
+				duration = 1825
+				hidden = yes
+				}
+			}	
+		}
+	free_colonist = {
+		color = { 166  0  0 }
+		potential = {
+				NOT = {
+					capital_scope = {
+						continent = north_america
+					}
+				}
+				NOT = {
+					capital_scope = {
+						continent = south_america
+					}
+				}
+				NOT = {
+					is_nomad = yes
+				}
+				NOT = { has_country_modifier = free_colonist}	
+				ai = no
+				dip_tech = 6
+			}
+
+		allow = {
+			dip_tech = 6
+		}
+		effect = {
+			add_country_modifier = {
+				name = "free_colonist"
+				duration = -1
+			}
+		}
+	}	
+	echo_critical_events = {
+		color = { 166  0  0 }
+		potential = {
+			ai = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = echo_radical_reform_decision
+				NOT = { has_country_flag = radical_mercantilist_reforms }
+			}
+			custom_trigger_tooltip = {
+				tooltip = echo_military_reform_decision
+				NOT = { has_country_flag = military_reform }
+			}
+			custom_trigger_tooltip = {
+				tooltip = echo_commandant_decision
+				NOT = { has_country_modifier = echo_commandant_cooldown }
+			}
+			custom_trigger_tooltip = {
+				tooltip = echo_grand_captain_decision
+				NOT = { has_country_modifier = echo_grand_captain_cooldown }
+			}
+		}
+		effect = {
+		}
+	}
+	echo_recruit_military_advisor = {
+		color = { 166  0  0 }
+		potential = {
+			ai = no
+       }
+		allow = {
+			adm_power = 25
+			ai = no
+		}
+		effect = {
+			country_event = {
+				id = echo.1
+			}
+		}
+	}
+	Create_a_Trade_Hub = {
+		color = { 166  0  0 }
+		potential = {
+			ai = no
+			has_dlc = "Dharma"
+		}
+		
+		allow = {
+			is_at_war = no
+			any_owned_province = {
+					area_for_scope_province = {
+								type = all
+								NOT = {
+									province_has_center_of_trade_of_level = 1
+								}
+					}
+					development = 30
+					OR = {
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = stock_exchange
+					}
+					NOT = {
+						province_has_center_of_trade_of_level = 1
+					}
+				
+			}
+			NOT = { has_country_modifier = trade_hub_created }
+			treasury = 200
+			dip_power = 50
+		}
+		
+		effect = {
+			country_event = { id = echo.4 }
+			add_treasury = -200
+			add_dip_power = -50
+		}
+		
+	}
+	Create_a_Trade_Hub_2 = {
+		color = { 166  0  0 }
+		potential = {
+			ai = no
+			has_dlc = "Dharma"
+		}
+		
+		allow = {
+			is_at_war = no
+			any_owned_province = {
+					base_production = 10
+					OR = {
+						has_building = workshop
+						has_building = counting_house
+					}
+					OR = {
+						trade_goods = naval_supplies
+						trade_goods = livestock
+						trade_goods = wool
+						trade_goods = grain
+					}
+			}
+			NOT = { has_country_modifier = trade_hub_created_2 }
+			treasury = 250 
+			dip_power = 100
+		}
+		
+		effect = {
+			country_event = { id = echo.3 }
+		}
+	}
+
+	echo_development_counter = {
+		color = { 166  0  0 }
+		potential = {
+			ai = no
+		}
+		allow = {
+			if = {
+				limit = {
+					has_country_flag = has_echo_development_counter_cflag
+				}
+				custom_trigger_tooltip = {
+					tooltip = echo_development_counter_tt
+				}
+			}
+			hidden_trigger = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = has_echo_development_counter_cflag }
+					}
+					always = yes
+				}
+				else = {
+					always = no
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = has_echo_development_counter_cflag }
+				}
+				custom_tooltip = echo_development_counter_tt_updater
+				hidden_effect = { echo_development_counter = { on_startup = yes } }
+			}
+		}
+	}
+}	
+	

@@ -1,0 +1,87 @@
+##############################
+#Province Modifiers
+##############################
+echo_dnieper_buh_estuary_pmod = {
+	province_trade_power_value = 5
+	picture = "estuary_icon"
+}
+########################################
+# General Modifiers
+
+free_colonist = {
+	colonists = 2
+	range = 0.5
+	global_colonial_growth = 15
+}
+
+urbanisation = {
+	all_power_cost = -0.1
+	global_trade_goods_size_modifier = 0.1
+}
+
+
+echo_muslim_school_cooldown = {
+}
+
+
+echo_province_investment = {
+}
+
+trade_hub_created = {
+}
+
+trade_hub_created_2 = {
+}
+
+
+trade_hub_created_in_province = {
+}
+
+trade_hub_created_in_province_grain = {
+	trade_value_modifier = 1
+	local_development_cost = -0.2
+}
+trade_hub_created_in_province_livestock = {
+	trade_value_modifier = 0.375
+	local_development_cost = -0.2
+}
+trade_hub_created_in_province_naval_supplies = {
+	trade_value_modifier = 0.5
+	local_development_cost = -0.2
+}
+
+
+echo_commandant_cooldown = {
+}
+echo_commandant_cooldown_100 = {
+}
+echo_grand_captain_cooldown = {
+}
+echo_grand_captain_cooldown_100 = {
+}
+echo_armyreform_cooldown = {
+}
+
+echo_militaryreform_cooldown = {
+}
+
+hired_explorer = {
+}
+
+hired_conquistador = {
+}
+
+echo_development = {
+	development_cost = -0.125
+}
+
+burnt_development = {
+}
+
+# Por Modifier
+echo_por_colonist = {
+	colonists = 1
+}
+
+enacted_states_general_reform = {
+}

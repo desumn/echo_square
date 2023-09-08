@@ -1,0 +1,186 @@
+Minor = {
+	potential = {
+	OR = {
+		OR = {
+            is_part_of_hre = yes
+            NOT = {is_great_power = yes}
+		}
+	}	
+			NOT = {total_own_and_non_tributary_subject_development = 500 }
+			ROOT = {
+				ai = no
+			}	
+			NOT = { is_emperor = yes }
+			NOT = {
+				has_country_modifier = burnt_development
+			}
+	}
+	
+
+	trigger = {
+		NOT = {total_own_and_non_tributary_subject_development = 300 }	
+		NOT = { is_emperor = yes }
+	}
+	advisor_cost = -0.25
+	advisor_pool = 1
+	interest = -0.25
+	global_regiment_cost = -0.1
+	build_cost = -0.05
+	development_cost_modifier = -0.2
+	monthly_reform_progress_modifier = 0.025
+	ae_impact = -0.1
+}
+
+We_stand_alone = {
+	potential = {
+			ROOT = {
+				ai = no	
+			}	
+	}
+	trigger  = {
+		OR = {
+				great_power_rank = 5
+				 is_great_power = no
+				}
+				any_country = {
+						total_development = ROOT
+					}
+				
+				NOT = { num_of_allies = 1 }
+				NOT = { is_hegemon = yes }
+				NOT = { is_colonial_nation = yes }	
+				NOT = { is_lacking_institutions = yes }
+	}
+	land_morale = 0.025
+	naval_morale = 0.025
+	discipline = 0.025
+	manpower_recovery_speed = 0.1
+	global_manpower_modifier = 0.1
+	reinforce_cost_modifier = -0.05
+	global_prosperity_growth = 0.5
+	fort_maintenance_modifier = -0.10
+	land_forcelimit_modifier = 0.1
+	merc_maintenance_modifier = -0.15
+	expand_infrastructure_cost_modifier = -0.25
+}
+
+HRE_backup = {	
+	potential = {
+				OR = {
+					tag = HAB
+					was_tag = HAB
+				}
+				was_player = yes
+				NOT = { is_emperor = yes }
+				ROOT = {
+					ai = no	
+				}
+			}
+	trigger  = {
+		OR = {
+			tag = HAB
+			was_tag = HAB
+		}	
+		NOT = { is_emperor = yes }
+	}
+	global_manpower = 15
+	land_forcelimit = 15
+	global_tax_income = 36
+	spy_offence = 0.1					#minor bonus on spies.
+	advisor_pool = 1
+	diplomatic_upkeep = 1
+	free_leader_pool = 1
+	prestige = 1
+	province_warscore_cost = -0.1
+	papal_influence = 1
+	ae_impact = -0.1
+	governing_capacity = 400
+}
+
+War_chest = {
+	potential = {
+		ROOT = {
+				ai = no	
+			}
+	}
+
+
+	trigger = {
+			any_country = {
+						total_development = ROOT
+					}		
+		
+		NOT = {is_hegemon = yes}
+		years_of_income = 1.25
+		NOT = { corruption = 1 }
+		NOT = { num_of_loans = 1 }
+		NOT = { is_colonial_nation = yes }	
+		is_at_war = yes
+		land_maintenance = 1
+		army_size_percentage = 0.3
+		NOT = { num_of_allies = 1 }
+	}
+	land_morale = 0.1
+	land_forcelimit_modifier = 0.15
+	mercenary_manpower = 0.25
+	war_exhaustion = -0.05
+	land_maintenance_modifier = -0.1
+	reinforce_speed = 0.1
+}
+
+Ahead_of_time = {
+	potential = {
+		ROOT = {
+				ai = no	
+			}
+	}
+	trigger = {
+		NOT = { is_lacking_institutions = yes }
+	}
+	monthly_reform_progress_modifier = 0.25
+	technology_cost = -0.05
+	yearly_army_professionalism = 0.002
+}
+TUR = {
+	potential = {
+		tag = TUR
+	}
+		
+	trigger = {
+		NOT = {
+			is_year = 1465
+		}
+		OR = {
+			AND = {
+				is_in_war = {
+					attackers = HUN
+				}
+				is_in_war = {
+					defenders = MAM
+				}
+				MAM = {
+					ai = no
+				}
+				HUN = {
+					ai = no
+				}
+			}
+			AND = {
+				is_in_war = {
+						attackers = HUN
+				}
+				is_in_war = {
+						attackers = MAM
+				}
+				MAM = {
+					ai = no
+				}
+				HUN = {
+					ai = no
+				}
+			}			
+		}	
+	}
+	mercenary_manpower = 1
+	land_forcelimit = 15
+}

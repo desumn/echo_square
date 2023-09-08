@@ -1,0 +1,99 @@
+﻿l_english:
+ ####################
+ # Decisions
+ ####################
+ #Development Counter
+ echo_development_counter_title:0 "Total Development Improvements"
+ echo_development_counter_desc:0 "" 
+ echo_development_counter_tt:0 "Development Improvements:\n\n£adm£ Development Gained: §G[Root.echo_adm_dev_counter.GetValue]§! \n£dip£ Development Gained: §G[Root.echo_dip_dev_counter.GetValue]§! \n£mil£ Development Gained: §G[Root.echo_mil_dev_counter.GetValue]§! \n\nTotal Development Gained: §G[Root.echo_total_dev_counter.GetValue]§!"
+ echo_development_counter_tt_updater:0 "Add §YDevelopment Improvement Counter§!"
+ ####################
+ # Modifiers
+ ####################
+ #Province Modifiers
+ echo_dnieper_buh_estuary_pmod:0 "Dnieper–Buh Estuary"
+ desc_echo_dnieper_buh_estuary_pmod:0 "Controlling the important river estuaries of the Dnieper and Buh strengthens our hold of the trade in the region."
+ #Country Modifiers
+ echo_por_colonist:0 "Portuguese Colonial Policy"
+ desc_echo_por_colonist:0 ""
+ #Triggered Modifiers
+ We_stand_alone:0 "Imperial Ambition"
+ Ahead_of_time:0 "Ahead of Time"
+ HRE_backup:0 "Legacy of Emperorship"
+ War_chest:0 "War Chest"
+ Minor:0 "Rising Power"
+ #Centers of Trade
+ regional_port:0 "Regional Port"
+ regional_port_desc:0 ""
+ regional_hub:0 "Regional Hub"
+ regional_hub_desc:0 ""
+ world_port_2:0 "Trade Center Cap"
+ world_port_2_desc:0 ""
+ world_trade_center_2:0 "Trade Center Cap"
+ world_trade_center_2_desc:0 ""
+ ########################modifiers#########################################
+ echo_commandant_cooldown:0 "Inspirational Leader Cooldown"
+ echo_commandant_cooldown_tooltip:0 "Perhaps another time..."
+ echo_grand_captain_cooldown:0 "Grand Captain Cooldown"
+ echo_grand_captain_cooldown_tooltip:0 "Perhaps another time..."
+ echo_armyreform_cooldown:0 "Let's not get ahead of ourselves..."
+ echo_armyreform_cooldowntooltip:0 "Perhaps another time..."
+ echo_muslim_school_cooldown:0 "Scholar Cooldown"
+ trade_hub_created:0 "Centre of Trade Created Recently"
+ trade_hub_created_2:0 "Trade Hub Created Recently"
+ ###################decisions##############################################
+ #exploration
+ free_colonist_title:0 "Free Colonist"
+ free_colonist_desc:0 ""
+ sm_hire_conquistador_title:0 "Hire A Foreign Conquistador"
+ sm_hire_conquistador_desc:0 "The recent discovery of the New World has led to a rush to explore and establish new trade routes. We must ensure we are the first to establish colonies in these new lands. Foreign conquistadors are available to hire to meet this purpose."
+ sm_hire_explorer_title:0 "Hire A Foreign Explorer"
+ sm_hire_explorer_desc:0 "The recent discovery of the New World has led to a rush to explore and establish new trade routes. We must ensure we are the first to establish colonies in these new lands. Foreign explorers are available to hire to meet this purpose."
+ #critical events
+ echo_critical_events_title:0 "Available Critical Events"
+ echo_critical_events_desc:0 "Check to see which critical events are still available, a green tick indicates it is available and a red cross indicates it has already been fired"
+ echo_radical_reform_decision:0 "Radical Reforms"
+ echo_military_reform_decision:0 "Military Reforms"
+ echo_commandant_decision:0 "Inspirational Leader"
+ echo_grand_captain_decision:0 "Grand Captain"
+ #golden age
+ urbanisation:0 "Golden Age (Economic)"
+ urbanisation_title:0 "Golden Age (Economic)"
+ urbanisation_desc:0 "50 years of reduced power cost and increased goods produced. No longer part of the normal Golden Age ability."
+ #mil advisor
+ echo_recruit_military_advisor_title:0 "Recruit Military Advisor"
+ echo_recruit_military_advisor_desc:0 ""
+ #trade hubs
+ Create_a_Trade_Hub_title:0 "Create a Center of Trade"
+ Create_a_Trade_Hub_desc:0 "At least one of our province has become a trade hub and could potentially become a center of trade, our merchants say. They would however, need some investment to make this happen."
+ Create_a_Trade_Hub_2_title:0 "Invest in the Provinces"
+ Create_a_Trade_Hub_2_desc:0 "At least one of our province has become a production hub and could potentially become a center of production, our merchants say. They would however, need some investment to make this happen."
+ ##################################events########################################
+ #internal dev
+ echo.2.t:0 "Internal Development"
+ echo.2.d:0 "Focus on internal development for the next 15 years."
+ echo.2.a:0 "Ok."
+ #mil advisor
+ echo.1.title:0 "Recruit Military Advisor"
+ echo.1.desc:0 "Use the state's resources to find an appropriate advisor. Scroll down for more."
+ echo.1.a:0 "Recruit Commandant"
+ echo.1.b:0 "Recruit Army Reformer"
+ echo.1.c:0 "Recruit Master of Recruitment"
+ echo.1.d:0 "Recruit Drillmaster"
+ echo.1.e:0 "Recruit Siege Specialist"
+ echo.1.f:0 "Recruit Infantry Leader"
+ echo.1.g:0 "Recruit Cavalry Leader"
+ echo.1.h:0 "Recruit Grand Captain"
+ echo.1.i:0 "Recruit Fortification Expert"
+ echo.1.j:0 "Recruit Quartermaster"
+ echo.1.k:0 "Recruit Artillery Officer"
+ echo.1.l:0 "Recruit Army Organiser"
+ echo.1.m:0 "Do Nothing"
+ #trade centre/hub
+ echo.3.t:0 "A Production Hub!"
+ echo.3.d:0 "After some deliberations, our merchants have successfully made $PROVINCE$ a production hub."
+ echo.3.a:0 "Good."
+ echo.3.b:0 "Do Nothing."
+ echo.4.t:0 "A New Center of Trade!"
+ echo.4.d:0 "After some deliberations, our merchants have successfully made $PROVINCE$ a center of trade."
+ echo.4.a:0 "Good."

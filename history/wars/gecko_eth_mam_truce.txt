@@ -1,0 +1,21 @@
+
+name = "Eth - Mamluk War"
+war_goal = {
+    type = take_claim
+    casus_belli = cb_conquest
+	province = 361 # Cairo
+}
+# War start date
+1443.1.1 = {
+	add_attacker = ETH
+	add_defender = MAM
+	add_defender = ORM
+	add_defender = RAS
+}
+# War end date
+1444.11.10 = {
+    rem_attacker = ETH
+	rem_defender = MAM
+	rem_defender = ORM
+	rem_defender = RAS
+}

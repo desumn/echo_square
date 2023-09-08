@@ -1,0 +1,44 @@
+edict_defensive_edict = {
+	potential = {
+		always = yes		#we support "potential" if modders want to have lots and just show some.
+	}
+	
+	allow = {
+		always = yes
+	}
+	
+	modifier = {
+		local_defensiveness = 0.15
+	}
+	
+	color = {  46 114 55  }
+	
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+gc_edict_defensive_edict_1 = {
+	potential = {
+		FROM = {
+			area_for_scope_province = {
+				has_building = gc_bureaucracy_manufactory
+			}
+		}
+	}
+	
+	allow = {
+	}
+	
+	modifier = {
+		local_defensiveness = 0.33
+	}
+	
+	color = {  46 114 55  }
+	
+	
+	ai_will_do = {
+		factor = 0
+	}
+}

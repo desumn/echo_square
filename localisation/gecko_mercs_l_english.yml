@@ -1,0 +1,32 @@
+﻿l_english:
+ #Variables
+ number_of_owned_mercenaries:0 "Number of Mercenaries"
+ mercenary_forcelimit:0 "Mercenary Force Limit"
+ mercenary_forcelimit_modifier:0 "Mercenary Force Limit Modifier"
+ mercenary_cost:0 "Mercenary Cost"
+ #Customizable Localization
+ gecko_mercs_cavalry_key:0 "Mercenary Cavalry"
+ gecko_mercs_infantry_key:0 "Mercenary Infantry"
+ #Decisions
+ gecko_mercs_auto_update_decision_title:0 "0. Add Automatic Mercenary Updater"
+ gecko_mercs_auto_update_decision_desc:0 ""
+ change_gecko_mercs_unit_type_decision_title:0 "1. Change Mercenary Unit Type"
+ change_gecko_mercs_unit_type_decision_desc:0 ""
+ recruit_one_gecko_mercs_decision_title:0 "2. Recruit 1 Mercenary Regiment"
+ recruit_one_gecko_mercs_decision_desc:0 ""
+ recruit_tier_1_gecko_mercs_decision_title:0 "3. Recruit [Prev.mercenary_bulk_recruitment_tier_1_localization.GetValue]% of Mercenary Force Limit"
+ recruit_tier_1_gecko_mercs_decision_desc:0 ""
+ recruit_tier_2_gecko_mercs_decision_title:0 "4. Recruit [Prev.mercenary_bulk_recruitment_tier_2_localization.GetValue]% of Mercenary Force Limit"
+ recruit_tier_2_gecko_mercs_decision_desc:0 ""
+ recruit_tier_3_gecko_mercs_decision_title:0 "5. Recruit [Prev.mercenary_bulk_recruitment_tier_3_localization.GetValue]% of Mercenary Force Limit"
+ recruit_tier_3_gecko_mercs_decision_desc:0 ""
+ recruit_tier_4_gecko_mercs_decision_title:0 "6. Recruit [Prev.mercenary_bulk_recruitment_tier_4_localization.GetValue]% of Mercenary Force Limit"
+ recruit_tier_4_gecko_mercs_decision_desc:0 ""
+ recruit_tier_5_gecko_mercs_decision_title:0 "7. Recruit [Prev.mercenary_bulk_recruitment_tier_5_localization.GetValue]% of Mercenary Force Limit"
+ recruit_tier_5_gecko_mercs_decision_desc:0 ""
+ #Decision Tooltips
+ change_gecko_mercs_unit_type_decision_tt:0 "Recruitment type will be §YMercenary Cavalry§!."
+ change_gecko_mercs_unit_type_decision_tt2:0 "Recruitment type will be §YMercenary Infantry§!."
+ mercenary_recruitment_tt:0 "Recruit §Y[Prev.GetGeckoMercsType]§! in §Y[This.GetName]§! for [Prev.mercenary_cost.GetValue]¤ each."
+ mercenary_over_force_limit_recruitment_tt:0 "Not enough §YAvailable Mercenaries§! to recruit."
+ gecko_mercs_auto_update_decision_tt:0 "Mercenary Force Limit will now update each month."

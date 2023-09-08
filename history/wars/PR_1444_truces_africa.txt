@@ -1,0 +1,24 @@
+name = "Conquest of Ceuta"
+war_goal = {
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 1751 # Ceuta
+}
+
+# Truce between Morocco and Granada
+
+1443.1.11 = {
+	add_attacker = MOR
+	add_defender = GRA
+	add_defender = MAL
+	add_defender = SON
+}
+
+# Peace and end of war
+
+1444.11.10 = {
+	rem_attacker = MOR
+	rem_defender = GRA
+	rem_defender = MAL
+	rem_defender = SON
+}
