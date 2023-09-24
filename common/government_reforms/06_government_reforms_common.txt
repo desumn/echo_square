@@ -44,6 +44,7 @@ parliamentary_reform = {
 	}
 	potential = {
 		is_revolutionary = no
+		is_colonial_nation = no
 		NOT = { has_government_attribute = is_pirate_republic_reform }
 		NOT = { has_government_attribute = english_parliament }
 	}
