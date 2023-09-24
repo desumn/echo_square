@@ -8,7 +8,7 @@ edict_encourage_development = {
 	}
 	
 	modifier = {
-		local_production_efficiency = 0.25
+		local_development_cost = -0.1
 	}
 	
 	color = {  244 184 12  }
@@ -16,48 +16,6 @@ edict_encourage_development = {
 	
 	ai_will_do = {
 		factor = 0
-		modifier = {
-			factor = 500
-			all_province_in_state = {
-				base_production = 4
-			}
-			area_for_scope_province = {
-				base_production = 16
-			}
-		}
 	}
 	
-}
-
-gc_edict_encourage_development_1 = {
-	potential = {
-		FROM = {
-			area_for_scope_province = {
-				has_building = gc_bureaucracy_manufactory
-			}
-		}
-	}
-	
-	allow = {
-	}
-	
-	modifier = {
-		local_production_efficiency = 0.5
-	}
-	
-	color = {  244 184 12  }
-	
-	
-	ai_will_do = {
-		factor = 0
-		modifier = {
-			factor = 1000
-			all_province_in_state = {
-				base_production = 4
-			}
-			area_for_scope_province = {
-				base_production = 16
-			}
-		}
-	}
 }
