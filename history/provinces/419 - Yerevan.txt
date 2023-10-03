@@ -23,12 +23,6 @@ fort_15th = yes
 extra_cost = 8
 center_of_trade = 1
 
-1402.1.1 = {
-	owner = QAR
-	controller = QAR
-	add_core = QAR
-	remove_core = TIM
-} 
 1435.1.1 = { unrest = 10 } 
 1453.1.1 = { unrest = 0 }
 1453.1.1 = { discovered_by = western }
