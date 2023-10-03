@@ -6,7 +6,8 @@ latent_trade_goods = {
 
 owner = TUN
 controller = TUN
-culture = tunisia
+add_core = TUN
+culture = tunisian
 religion = catholic 
 hre = no 
 base_tax = 3

@@ -2,6 +2,7 @@
 
 owner = ARL
 controller = ARL
+add_core = ARL
 culture = armenian
 religion = coptic
 capital = "Yerevan"

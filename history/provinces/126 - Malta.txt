@@ -2,7 +2,8 @@
 
 owner = TUN
 controller = TUN
-culture = TUN 
+add_core = TUN
+culture = tunisian
 religion = catholic 
 hre = no 
 base_tax = 3 

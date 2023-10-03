@@ -2,6 +2,7 @@
 
 owner = HSA
 controller = HSA
+add_core = HSA
 add_core = LAU
 culture = lower_saxon
 religion = catholic
