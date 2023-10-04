@@ -929,10 +929,7 @@ the_transportation_act = {
 harbour_administration = {
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = naval_ideas
-		has_idea_group = administrative_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = naval_ideas
@@ -972,10 +969,7 @@ harbour_administration = {
 supply_convoys = {
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = naval_ideas
-		has_idea_group = expansion_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = naval_ideas
@@ -1015,10 +1009,7 @@ supply_convoys = {
 cultural_recognition_act = {
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = plutocracy_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = humanist_ideas
@@ -1038,10 +1029,7 @@ cultural_recognition_act = {
 the_licensing_of_the_press_act = {
 	monarch_power = ADM
 
-	potential = {
-		has_idea_group = administrative_ideas
-		has_idea_group = aristocracy_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = administrative_ideas
@@ -1065,10 +1053,7 @@ the_licensing_of_the_press_act = {
 the_dissolution_act = {
 	monarch_power = ADM
 
-	potential = {
-		has_idea_group = diplomatic_ideas
-		has_idea_group = economic_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = diplomatic_ideas
@@ -1129,10 +1114,7 @@ the_dissolution_act = {
 the_statute_of_monopolies = {
 	monarch_power = ADM
 
-	potential = {
-		has_idea_group = trade_ideas
-		has_idea_group = economic_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = trade_ideas
@@ -1193,10 +1175,7 @@ the_statute_of_monopolies = {
 
 taxation_with_representation = {
 	monarch_power = ADM
-	potential = {
-		has_idea_group = expansion_ideas
-		has_idea_group = plutocracy_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = expansion_ideas
@@ -1237,10 +1216,7 @@ taxation_with_representation = {
 cultural_understanding = {
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = spy_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = humanist_ideas
@@ -1280,10 +1256,7 @@ cultural_understanding = {
 the_citrus_statute = {
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = maritime_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = humanist_ideas
@@ -1304,10 +1277,7 @@ diplomatic_cooperation_act = {
 	monarch_power = DIP
 
 
-	potential = {
-		has_idea_group = innovativeness_ideas
-		has_idea_group = diplomatic_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = innovativeness_ideas
@@ -1330,10 +1300,7 @@ the_banking_system = {
 	monarch_power = ADM
 
 
-	potential = {
-		has_idea_group = innovativeness_ideas
-		has_idea_group = trade_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = innovativeness_ideas
@@ -1371,10 +1338,7 @@ the_banking_system = {
 church_sponsored_guilds = {
 	monarch_power = ADM
 
-	potential = {
-		has_idea_group = religious_ideas
-		has_idea_group = trade_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = religious_ideas
@@ -1414,10 +1378,7 @@ church_sponsored_guilds = {
 anti_heresy_act = {
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = religious_ideas
-		has_idea_group = offensive_ideas
-	}
+	
 	
 	allow = {
 		full_idea_group = religious_ideas
@@ -1457,10 +1418,7 @@ anti_heresy_act = {
 steppe_supplies_policy = {
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = administrative_ideas
-		has_idea_group = horde_gov_ideas
-	}
+	
 	
 	allow = {
 		full_idea_group = administrative_ideas
@@ -1485,10 +1443,7 @@ steppe_supplies_policy = {
 to_the_ground_policy = { 
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = economic_ideas
-		has_idea_group = horde_gov_ideas
-	}
+	
 	
 	allow = {
 		full_idea_group = economic_ideas
@@ -1508,10 +1463,7 @@ to_the_ground_policy = {
 calming_the_tides_policy = { 
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = horde_gov_ideas
-	}
+	
 	
 	allow = {
 		full_idea_group = humanist_ideas
@@ -1548,10 +1500,7 @@ calming_the_tides_policy = {
 esprit_de_corps_policy = { 
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = religious_ideas
-		has_idea_group = horde_gov_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = religious_ideas
@@ -1588,10 +1537,7 @@ esprit_de_corps_policy = {
 otto_per_mille = {
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = economic_ideas
-		has_idea_group = theocracy_gov_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = economic_ideas
@@ -1628,10 +1574,7 @@ otto_per_mille = {
 religious_spread_policy = {
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = expansion_ideas
-		has_idea_group = theocracy_gov_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = expansion_ideas
@@ -1671,10 +1614,7 @@ religious_spread_policy = {
 omnism_policy = {
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = theocracy_gov_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = humanist_ideas
@@ -1714,10 +1654,7 @@ omnism_policy = {
 ora_et_labora_policy = {
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = innovativeness_ideas
-		has_idea_group = theocracy_gov_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = innovativeness_ideas
@@ -1757,10 +1694,7 @@ ora_et_labora_policy = {
 administration_of_sacred_land_policy = {
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = administrative_ideas
-		has_idea_group = indigenous_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = administrative_ideas
@@ -1800,10 +1734,7 @@ administration_of_sacred_land_policy = {
 shared_land_policy = { 
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = expansion_ideas
-		has_idea_group = indigenous_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = expansion_ideas
@@ -1826,10 +1757,7 @@ shared_land_policy = {
 disruptive_innovation_policy = { 
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = innovativeness_ideas
-		has_idea_group = indigenous_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = innovativeness_ideas
@@ -1849,10 +1777,7 @@ disruptive_innovation_policy = {
 ancestor_worship_policy = {
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = religious_ideas
-		has_idea_group = indigenous_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = religious_ideas
@@ -1874,10 +1799,7 @@ ancestor_worship_policy = {
 aristocratic_rule_act = { 
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = infrastructure_ideas
-		has_idea_group = aristocracy_ideas 
-	}
+	 
 	
 	allow = {
 		full_idea_group = infrastructure_ideas
@@ -1897,10 +1819,7 @@ aristocratic_rule_act = {
 plutocratic_rule_act = { 
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = infrastructure_ideas
-		has_idea_group = plutocracy_ideas 
-	}
+	 
 	
 	allow = {
 		full_idea_group = infrastructure_ideas
@@ -1919,10 +1838,7 @@ plutocratic_rule_act = {
 theocratic_rule_act = { 
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = infrastructure_ideas
-		has_idea_group = theocracy_gov_ideas 
-	}
+	 
 	
 	allow = {
 		full_idea_group = infrastructure_ideas
@@ -1943,10 +1859,7 @@ theocratic_rule_act = {
 head_of_state_act = { 
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = court_ideas
-		has_idea_group = innovativeness_ideas 
-	}
+	 
 	
 	allow = {
 		full_idea_group = court_ideas
@@ -1966,10 +1879,7 @@ head_of_state_act = {
 zealous_court_act = { 
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = court_ideas
-		has_idea_group = religious_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = court_ideas
@@ -1989,10 +1899,7 @@ zealous_court_act = {
 financial_miracle_act = { 
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = court_ideas
-		has_idea_group = economic_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = court_ideas
@@ -2012,10 +1919,7 @@ financial_miracle_act = {
 subject_obligations_act = { 
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = court_ideas
-		has_idea_group = expansion_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = court_ideas
@@ -2035,10 +1939,7 @@ subject_obligations_act = {
 big_government_act = { 
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = court_ideas
-		has_idea_group = administrative_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = court_ideas
@@ -2058,10 +1959,7 @@ big_government_act = {
 humanitarian_administration_act = { 
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = court_ideas
-		has_idea_group = humanist_ideas
-	}
+	 
 	
 	allow = {
 		full_idea_group = court_ideas
@@ -2082,10 +1980,7 @@ humanitarian_administration_act = {
 blessed_construction_act = { 
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = court_ideas
-		has_idea_group = theocracy_gov_ideas 
-	}
+	 
 	
 	allow = {
 		full_idea_group = court_ideas
@@ -2105,10 +2000,7 @@ blessed_construction_act = {
 military_innovation_act = { 
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = mercenary_ideas
-		has_idea_group = innovativeness_ideas  
-	}
+	 
 	
 	allow = {
 		full_idea_group = mercenary_ideas
@@ -2128,10 +2020,7 @@ military_innovation_act = {
 efficient_war_taxes_act = { 
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = mercenary_ideas
-		has_idea_group = economic_ideas   
-	}
+	 
 	
 	allow = {
 		full_idea_group = mercenary_ideas
@@ -2151,10 +2040,7 @@ efficient_war_taxes_act = {
 peace_keeping_force_act = { 
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = mercenary_ideas
-		has_idea_group = humanist_ideas   
-	}
+	 
 	
 	allow = {
 		full_idea_group = mercenary_ideas
@@ -2174,10 +2060,7 @@ peace_keeping_force_act = {
 indigenous_development_act = { 
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = indigenous_ideas
-		has_idea_group = infrastructure_ideas   
-	}
+	 
 	
 	allow = {
 		full_idea_group = indigenous_ideas
@@ -2195,10 +2078,7 @@ indigenous_development_act = {
 mercenary_registration_act = { 
 	monarch_power = ADM
 	
-	potential = {
-		has_idea_group = administrative_ideas
-		has_idea_group = mercenary_ideas 
-	}
+	 
 	
 	allow = {
 		full_idea_group = administrative_ideas
