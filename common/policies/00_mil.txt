@@ -5,9 +5,12 @@ privy_council_establishment_act = {
 	
 	
 	allow = {
-		full_idea_group = spy_ideas
-		full_idea_group = defensive_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	defensiveness = 0.15
 	yearly_corruption = -0.1
@@ -42,9 +45,12 @@ the_mercenary_registration_act = {
 	
 	
 	allow = {
-		full_idea_group = spy_ideas
-		full_idea_group = quantity_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	global_manpower_modifier = 0.1
 	mercenary_manpower = 0.2
@@ -77,9 +83,12 @@ the_provincial_taxation_system = {
 	
 	
 	allow = {
-		full_idea_group = administrative_ideas
-		full_idea_group = quantity_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	land_maintenance_modifier = -0.05
 	manpower_recovery_speed = 0.15
@@ -113,9 +122,12 @@ the_mining_act = {
 
 	
 	allow = {
-		full_idea_group = expansion_ideas
-		full_idea_group = quality_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	leader_land_fire = 1
 	
@@ -149,9 +161,12 @@ the_liquor_act = {
 	
 	
 	allow = {
-		full_idea_group = quality_ideas
-		full_idea_group = administrative_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	recover_army_morale_speed = 0.15
 	reinforce_speed = 0.15
@@ -181,9 +196,12 @@ horse_artillery = {
 	
 	
 	allow = {
-		full_idea_group = offensive_ideas
-		full_idea_group = economic_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	artillery_power = 0.1
 
     effect = { 
@@ -227,9 +245,12 @@ public_road_act = {
 	
 	
 	allow = {
-		full_idea_group = offensive_ideas
-		full_idea_group = trade_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	movement_speed = 0.10
 	trade_efficiency = 0.10
@@ -279,9 +300,12 @@ superior_supply_system = {
 	
 	
 	allow = {
-		full_idea_group = quality_ideas
-		full_idea_group = exploration_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	manpower_recovery_speed = 0.1
 	land_attrition = -0.25
@@ -316,9 +340,12 @@ modern_siege_weapons = {
 	
 	
 	allow = {
-		full_idea_group = innovativeness_ideas
-		full_idea_group = offensive_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	siege_ability = 0.1
 	leader_siege = 1
@@ -352,9 +379,12 @@ superior_fortification_act = {
 	
 	
 	allow = {
-		full_idea_group = innovativeness_ideas
-		full_idea_group = defensive_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	defensiveness = 0.1
 	fort_maintenance_modifier = -0.33
@@ -385,9 +415,12 @@ modern_firearm_techniques = {
 	
 	
 	allow = {
-		full_idea_group = innovativeness_ideas
-		full_idea_group = quality_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	infantry_power = 0.15
 
@@ -428,9 +461,12 @@ the_garrison_act = {
 	
 	
 	allow = {
-		full_idea_group = innovativeness_ideas
-		full_idea_group = quantity_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	fort_maintenance_modifier = -0.25
 	garrison_size = 0.15
@@ -460,9 +496,12 @@ military_zeal_act = {
 	
 	
 	allow = {
-		full_idea_group = quality_ideas
-		full_idea_group = religious_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	morale_damage = 0.05
 	siege_ability = 0.1
@@ -496,9 +535,12 @@ field_priests = {
 	
 	
 	allow = {
-		full_idea_group = religious_ideas
-		full_idea_group = quantity_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	land_morale = 0.1
 	recover_army_morale_speed = 0.05
@@ -531,9 +573,12 @@ pen_rely_on_sword_act = {
 	
 	
 	allow = {
-		full_idea_group = diplomatic_ideas
-		full_idea_group = quantity_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	diplomatic_reputation = 1
 	land_forcelimit_modifier = 0.1
@@ -583,9 +628,12 @@ local_army_organisation = {
 	
 	
 	allow = {
-		full_idea_group = expansion_ideas
-		full_idea_group = defensive_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	global_regiment_cost = -0.1
 	recover_army_morale_speed = 0.15
@@ -614,9 +662,12 @@ underhanded_diplomacy_act = {
 	
 	
 	allow = {
-		full_idea_group = diplomatic_ideas
-		full_idea_group = offensive_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	spy_offence = 0.33
 	diplomatic_reputation = 1
@@ -646,9 +697,12 @@ hired_adventurers_act = {
 	
 	
 	allow = {
-		full_idea_group = quantity_ideas
-		full_idea_group = exploration_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	movement_speed = 0.1
 	leader_land_manuever = 1
@@ -684,9 +738,12 @@ the_tenures_abolition_act = {
 	
 	
 	allow = {
-		full_idea_group = diplomatic_ideas
-		full_idea_group = aristocracy_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	army_tradition = 0.5
 	diplomats = 1
@@ -716,9 +773,12 @@ colonial_garrisons = {
 	
 	
 	allow = {
-		full_idea_group = quantity_ideas
-		full_idea_group = expansion_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	land_forcelimit_modifier = 0.1
 	global_colonial_growth = 10
@@ -756,9 +816,12 @@ the_maritime_intelligencer_unit = {
 	
 	
 	allow = {
-		full_idea_group = naval_ideas
-		full_idea_group = spy_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	siege_blockade_progress = 1
 	global_naval_engagement_modifier = 0.1
@@ -792,9 +855,12 @@ the_nautic_education_act = {
 	
 	
 	allow = {
-		full_idea_group = naval_ideas
-		full_idea_group = innovativeness_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	recover_navy_morale_speed = 0.15
 	leader_naval_fire = 1
@@ -832,9 +898,12 @@ zealous_captains = {
 	
 	
 	allow = {
-		full_idea_group = naval_ideas
-		full_idea_group = religious_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	sunk_ship_morale_hit_recieved = -0.10
 	leader_naval_shock = 1
@@ -872,9 +941,12 @@ autonomous_estates = {
 	
 	
 	allow = {
-		full_idea_group = influence_ideas
-		full_idea_group = aristocracy_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	all_estate_loyalty_equilibrium = 0.05
 	vassal_forcelimit_bonus = 1
@@ -924,9 +996,12 @@ inspirational_leaders = {
 	
 	
 	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = quantity_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	leader_land_shock = 1
 	
@@ -959,9 +1034,12 @@ the_naval_inspection_act = {
 	
 	
 	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = naval_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	ship_durability = 0.05
 	recover_navy_morale_speed = 0.1
@@ -995,9 +1073,12 @@ the_preparation_act = {
 	
 	
 	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = defensive_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	land_attrition = -0.25
 	war_exhaustion = -0.05
@@ -1031,9 +1112,12 @@ local_militias = {
 	
 	
 	allow = {
-		full_idea_group = influence_ideas
-		full_idea_group = defensive_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	war_exhaustion = -0.03
 	garrison_damage = 0.5
@@ -1063,9 +1147,12 @@ foreign_conscription_centers = {
 	
 	
 	allow = {
-		full_idea_group = influence_ideas
-		full_idea_group = offensive_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	reinforce_cost_modifier = -0.25
 	diplomatic_upkeep = 1
@@ -1115,9 +1202,12 @@ guerilla_warfare = {
 	
 	
 	allow = {
-		full_idea_group = influence_ideas
-		full_idea_group = quantity_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	hostile_attrition = 1
 	shock_damage = 0.05
@@ -1146,9 +1236,12 @@ weapon_quality_standards = {
 	
 	
 	allow = {
-		full_idea_group = economic_ideas
-		full_idea_group = quality_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	discipline = 0.05
 	
@@ -1181,9 +1274,12 @@ noble_loyalty_act = {
 	
 	
 	allow = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = spy_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	nobles_loyalty_modifier = 0.1
 	cavalry_power = 0.1
@@ -1228,9 +1324,12 @@ the_colonial_nobility_act = {
 	
 	
 	allow = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = exploration_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	global_manpower_modifier = 0.2
 
@@ -1258,9 +1357,12 @@ nobles_in_navy_act = {
 	
 	
 	allow = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = maritime_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	max_admiral_maneuver = 1 
 	navy_tradition_decay = -0.005
@@ -1295,9 +1397,12 @@ military_allotment_act = {
 	
 	
 	allow = {
-		full_idea_group = spy_ideas
-		full_idea_group = plutocracy_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	global_manpower_modifier = 0.2
 
@@ -1326,9 +1431,12 @@ unified_army_command = {
 	
 	
 	allow = {
-		full_idea_group = plutocracy_ideas
-		full_idea_group = influence_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	vassal_forcelimit_bonus = 1
 	reduced_liberty_desire = 10
@@ -1377,9 +1485,12 @@ trade_kontor_network = {
 	
 	
 	allow = {
-		full_idea_group = plutocracy_ideas
-		full_idea_group = trade_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	merchants = 1
 	global_regiment_cost = -0.1
@@ -1429,9 +1540,12 @@ deserteur_act = {
 	
 	
 	allow = {
-		full_idea_group = spy_ideas
-		full_idea_group = quality_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	army_tradition_decay = -0.005
 	reinforce_speed = 0.15
@@ -1477,9 +1591,12 @@ war_horses_policy = {
 	
 	
 	allow = {
-		full_idea_group = horde_gov_ideas
-		full_idea_group = expansion_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	army_tradition = 0.5
 	shock_damage = 0.1
@@ -1525,9 +1642,12 @@ the_best_defense_policy = {
 	
 	
 	allow = {
-		full_idea_group = horde_gov_ideas
-		full_idea_group = innovativeness_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	shock_damage_received = -0.05
 	fire_damage_received = -0.05
@@ -1561,9 +1681,12 @@ omne_datum_optimum_policy = {
 	
 	
 	allow = {
-		full_idea_group = theocracy_gov_ideas
-		full_idea_group = administrative_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	manpower_in_true_faith_provinces = 0.15
 	recover_army_morale_speed = 0.1
@@ -1597,9 +1720,12 @@ wielders_of_the_flaming_sword_policy = {
 	
 	
 	allow = {
-		full_idea_group = theocracy_gov_ideas
-		full_idea_group = religious_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	land_morale = 0.1
 	
@@ -1632,9 +1758,12 @@ the_three_sisters_policy = {
 	
 	
 	allow = {
-		full_idea_group = indigenous_ideas
-		full_idea_group = economic_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	land_morale = 0.05
 	infantry_cost = -0.15
@@ -1668,9 +1797,12 @@ by_the_people_for_the_people_policy = {
 	
 	
 	allow = {
-		full_idea_group = indigenous_ideas
-		full_idea_group = humanist_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	defensiveness = 0.25
 	garrison_size = 0.1
@@ -1704,9 +1836,12 @@ war_on_our_terms_policy = {
 	
 	
 	allow = {
-		full_idea_group = indigenous_ideas
-		full_idea_group = exploration_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	discipline = 0.025
 	land_morale = 0.1
@@ -1740,9 +1875,12 @@ fear_tactics_policy = {
 	
 	
 	allow = {
-		full_idea_group = horde_gov_ideas
-		full_idea_group = diplomatic_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	shock_damage = 0.1
 	siege_ability = 0.1
@@ -1776,9 +1914,12 @@ psychological_warfare_policy = {
 	
 	
 	allow = {
-		full_idea_group = horde_gov_ideas
-		full_idea_group = spy_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	cavalry_flanking = 0.5
 	cavalry_power = 0.1
@@ -1812,9 +1953,12 @@ kharash_policy = {
 	
 	
 	allow = {
-		full_idea_group = horde_gov_ideas
-		full_idea_group = influence_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	land_morale = 0.05
 	vassal_forcelimit_bonus = 1.0
@@ -1848,9 +1992,12 @@ my_word_is_my_bond_policy = {
 	
 	
 	allow = {
-		full_idea_group = theocracy_gov_ideas
-		full_idea_group = spy_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	siege_ability = 0.1
 	artillery_level_modifier = 1
@@ -1884,9 +2031,12 @@ render_unto_caesar_policy = {
 	
 	
 	allow = {
-		full_idea_group = theocracy_gov_ideas
-		full_idea_group = exploration_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	global_manpower_modifier = 0.1
 	land_forcelimit_modifier = 0.05
@@ -1922,9 +2072,12 @@ mobile_siege_engines_act = {
 	
 	
 	allow = {
-		full_idea_group = infrastructure_ideas
-		full_idea_group = offensive_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	movement_speed = 0.05
 	artillery_levels_available_vs_fort = 2
@@ -1954,9 +2107,12 @@ bolstered_defence_act = {
 	
 	
 	allow = {
-		full_idea_group = infrastructure_ideas
-		full_idea_group = defensive_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	hostile_attrition = 1 
 	garrison_size = 0.25
@@ -1986,9 +2142,12 @@ handpicked_recruits_act = {
 	
 	
 	allow = {
-		full_idea_group = infrastructure_ideas
-		full_idea_group = quality_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	drill_gain_modifier = 0.33
 	yearly_army_professionalism = 0.0025
@@ -2018,10 +2177,12 @@ mass_conscription_act = {
 	
 	
 	allow = {
-		full_idea_group = infrastructure_ideas
-		full_idea_group = quantity_ideas
-		
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	reinforce_speed = 0.2
 	reinforce_cost_modifier = -0.2
@@ -2051,9 +2212,12 @@ naval_armament_act = {
 	
 	
 	allow = {
-		full_idea_group = infrastructure_ideas
-		full_idea_group = naval_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	global_ship_recruit_speed = -0.25
 	movement_speed_in_fleet_modifier = 1
@@ -2083,9 +2247,12 @@ mercenary_tactical_movement_act = {
 	
 	
 	allow = {
-		full_idea_group = infrastructure_ideas
-		full_idea_group = mercenary_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	mercenary_discipline = 0.05
 
@@ -2114,9 +2281,12 @@ universal_serfdom_act = {
 	
 	
 	allow = {
-		full_idea_group = court_ideas
-		full_idea_group = aristocracy_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	nobles_loyalty_modifier = 0.1
 	global_manpower_modifier = 0.15
@@ -2146,9 +2316,12 @@ gentle_conquest_act = {
 	
 	
 	allow = {
-		full_idea_group = infrastructure_ideas
-		full_idea_group = horde_gov_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	global_monthly_devastation = -0.25
 	land_maintenance_modifier = -0.1
@@ -2178,9 +2351,12 @@ sharp_wits_act = {
 	
 	
 	allow = {
-		full_idea_group = court_ideas
-		full_idea_group = offensive_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	power_projection_from_insults = 0.25
 	morale_damage = 0.1
@@ -2210,9 +2386,12 @@ sturdy_argument_act = {
 	
 	
 	allow = {
-		full_idea_group = court_ideas
-		full_idea_group = defensive_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	ae_impact = -0.1
 	morale_damage_received = -0.1
@@ -2243,9 +2422,12 @@ special_forces_act = {
 	
 	
 	allow = {
-		full_idea_group = court_ideas
-		full_idea_group = quality_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	special_unit_forcelimit = 0.1
 	yearly_army_professionalism = 0.002
@@ -2275,9 +2457,12 @@ plentiful_materials_act = {
 	
 	
 	allow = {
-		full_idea_group = court_ideas
-		full_idea_group = quantity_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	artillery_cost = -0.15
 	infantry_cost = -0.1
@@ -2307,9 +2492,12 @@ naval_competence_act = {
 	
 	
 	allow = {
-		full_idea_group = court_ideas
-		full_idea_group = naval_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	leader_naval_manuever = 1 
 	leader_naval_fire = 1 
@@ -2339,9 +2527,12 @@ dutiful_mercenaries_act = {
 	
 	
 	allow = {
-		full_idea_group = mercenary_ideas
-		full_idea_group = religious_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	land_morale = 0.1
 	global_missionary_strength = 0.02
@@ -2371,9 +2562,12 @@ hired_expeditions_act = {
 	
 	
 	allow = {
-		full_idea_group = mercenary_ideas
-		full_idea_group = expansion_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	force_march_free = yes 
 	recover_army_morale_speed = 0.15

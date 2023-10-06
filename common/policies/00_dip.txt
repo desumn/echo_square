@@ -4,9 +4,12 @@ innovative_payment_techniques_act = {
 	
 	
 	allow = {
-		full_idea_group = court_ideas
-		full_idea_group = mercenary_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	mercenary_cost = -0.33
 
@@ -35,9 +38,12 @@ plutocratic_ethos_act = {
 	
 	
 	allow = {
-		full_idea_group = court_ideas
-		full_idea_group = plutocracy_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	reform_progress_growth = 0.25
 	
@@ -66,9 +72,12 @@ clan_unity_act = {
 	
 	
 	allow = {
-		full_idea_group = court_ideas
-		full_idea_group = horde_gov_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	horde_unity = 1
 	ae_impact = -0.1
@@ -98,9 +107,12 @@ the_recruiting_act = {
 	
 	
 	allow = {
-		full_idea_group = maritime_ideas
-		full_idea_group = economic_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	global_sailors_modifier = 0.25
 	allowed_marine_fraction = 0.1
@@ -150,9 +162,12 @@ hold_the_weather_gauge = {
 	
 	
 	allow = {
-		full_idea_group = maritime_ideas
-		full_idea_group = offensive_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	leader_naval_manuever = 1
 	ship_durability = 0.05
@@ -182,9 +197,12 @@ the_wooden_wall = {
 	
 	
 	allow = {
-		full_idea_group = maritime_ideas
-		full_idea_group = defensive_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	global_ship_cost = -0.1
 	naval_forcelimit_modifier = 0.15
@@ -217,9 +235,12 @@ the_importation_act = {
 
 	
 	allow = {
-		full_idea_group = trade_ideas
-		full_idea_group = administrative_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	trade_efficiency = 0.1
 	mercantilism_cost = -0.2
@@ -270,9 +291,12 @@ colonial_expansions = {
 	
 	
 	allow = {
-		full_idea_group = expansion_ideas
-		full_idea_group = exploration_ideas
-	}		
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }		
 
 	global_colonial_growth = 15
 	native_uprising_chance = -0.5
@@ -311,9 +335,12 @@ beneficial_neglect = {
 	
 	
 	allow = {
-		full_idea_group = exploration_ideas
-		full_idea_group = innovativeness_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	colonist_placement_chance = 0.05
 	global_trade_power = 0.1
@@ -373,9 +400,12 @@ restrictions_for_colonies = {
 	
 	
 	allow = {
-		full_idea_group = exploration_ideas
-		full_idea_group = religious_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 
 
@@ -451,9 +481,12 @@ naval_infrastructure_act = {
 	
 	
 	allow = {
-		full_idea_group = maritime_ideas
-		full_idea_group = expansion_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 
 	naval_forcelimit_modifier = 0.33
@@ -503,9 +536,12 @@ new_naval_tactis = {
 	
 	
 	allow = {
-		full_idea_group = innovativeness_ideas
-		full_idea_group = maritime_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	leader_naval_manuever = 1
 	heavy_ship_power = 0.1
@@ -539,9 +575,12 @@ trade_connection_policy = {
 	
 	
 	allow = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = trade_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	global_foreign_trade_power = 0.30
 	merchants = 1
@@ -586,9 +625,12 @@ naval_secrecy_act = {
 	
 	
 	allow = {
-		full_idea_group = exploration_ideas
-		full_idea_group = defensive_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	sunk_ship_morale_hit_recieved = -0.1
 	naval_morale = 0.1
@@ -621,9 +663,12 @@ streamlined_galley_production = {
 	
 	
 	allow = {
-		full_idea_group = maritime_ideas
-		full_idea_group = quantity_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	galley_cost = -0.15
 	galley_power = 0.15
@@ -657,9 +702,12 @@ cloth_quality_edict = {
 	
 	
 	allow = {
-		full_idea_group = trade_ideas
-		full_idea_group = quality_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	trade_efficiency = 0.15
 
     effect = { 
@@ -708,9 +756,12 @@ production_quota_act = {
 	
 	
 	allow = {
-		full_idea_group = trade_ideas
-		full_idea_group = quantity_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	global_trade_goods_size_modifier = 0.15
  
 
@@ -738,9 +789,12 @@ encouragement_of_merchant_navy = {
 	
 	
 	allow = {
-		full_idea_group = trade_ideas
-		full_idea_group = expansion_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	trade_efficiency = 0.1
 	trade_steering = 0.2
@@ -792,9 +846,12 @@ commercial_embassies = {
 	
 	
 	allow = {
-		full_idea_group = diplomatic_ideas
-		full_idea_group = expansion_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	global_trade_power = 0.1
 	diplomatic_reputation = 1
@@ -839,9 +896,12 @@ mandatory_service = {
 	
 	
 	allow = {
-		full_idea_group = diplomatic_ideas
-		full_idea_group = plutocracy_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	reelection_cost = -0.10
 	global_manpower_modifier = 0.1
@@ -873,9 +933,12 @@ professional_diplomatic_corps = {
 	
 	
 	allow = {
-		full_idea_group = diplomatic_ideas
-		full_idea_group = quality_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	diplomatic_reputation = 1
 	war_exhaustion = -0.05
@@ -907,9 +970,12 @@ colonial_companies_act = {
 	
 	
 	allow = {
-		full_idea_group = exploration_ideas
-		full_idea_group = plutocracy_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	range = 0.20
 	global_colonial_growth = 10
@@ -946,9 +1012,12 @@ protected_shipping_lanes = {
 	
 	
 	allow = {
-		full_idea_group = maritime_ideas
-		full_idea_group = plutocracy_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	light_ship_cost = -0.15
 	global_ship_trade_power = 0.2
@@ -982,9 +1051,12 @@ chaplains_of_the_fleet = {
 	
 	
 	allow = {
-		full_idea_group = religious_ideas
-		full_idea_group = maritime_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	naval_morale = 0.1
 	recover_navy_morale_speed = 0.1
@@ -1018,9 +1090,12 @@ multilingual_diplomats = {
 	
 	
 	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = diplomatic_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	num_accepted_cultures = 1
 	improve_relation_modifier = 0.2
@@ -1050,9 +1125,12 @@ native_assimilation_act = {
 	
 	
 	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = exploration_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	global_colonial_growth = 10
 	native_assimilation = 0.5
@@ -1090,9 +1168,12 @@ the_foreign_aid_act = {
 	
 	
 	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = influence_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	diplomatic_upkeep = 1
 	diplomatic_reputation = 1
@@ -1122,9 +1203,12 @@ cultural_unity = {
 	
 	
 	allow = {
-		full_idea_group = influence_ideas
-		full_idea_group = religious_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	culture_conversion_cost = -0.15
 	
@@ -1153,9 +1237,12 @@ terms_of_surrender_statute = {
 	
 	
 	allow = {
-		full_idea_group = naval_ideas
-		full_idea_group = diplomatic_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	capture_ship_chance = 0.33
 
@@ -1185,9 +1272,12 @@ skilled_cartographers = {
 	
 	
 	allow = {
-		full_idea_group = naval_ideas
-		full_idea_group = exploration_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	global_naval_engagement_modifier = 0.2
 	
@@ -1224,9 +1314,12 @@ fortified_trading_posts = {
 	
 	
 	allow = {
-		full_idea_group = naval_ideas
-		full_idea_group = trade_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	global_ship_trade_power = 0.33
 	
@@ -1275,9 +1368,12 @@ the_integrated_administration_act = {
 	
 	
 	allow = {
-		full_idea_group = influence_ideas
-		full_idea_group = quality_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	vassal_income = 0.25
 	diplomatic_annexation_cost = -0.1
@@ -1327,9 +1423,12 @@ the_cooperation_act = {
 	
 	
 	allow = {
-		full_idea_group = naval_ideas
-		full_idea_group = influence_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	caravan_power = 0.33
 	merchants = 1
@@ -1366,9 +1465,12 @@ record_keeping_act = {
 	
 	
 	allow = {
-		full_idea_group = administrative_ideas
-		full_idea_group = diplomatic_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	diplomats = 1
 	global_autonomy = -0.05
@@ -1397,9 +1499,12 @@ colonial_administration_act = {
 	
 	
 	allow = {
-		full_idea_group = administrative_ideas
-		full_idea_group = exploration_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	global_colonial_growth = 10
 	colonist_placement_chance = 0.05
@@ -1438,9 +1543,12 @@ naval_school_act = {
 	
 	
 	allow = {
-		full_idea_group = administrative_ideas
-		full_idea_group = maritime_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	navy_tradition = 1
 
@@ -1475,9 +1583,12 @@ the_foreign_support_act = {
 	
 	
 	allow = {
-		full_idea_group = spy_ideas
-		full_idea_group = economic_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	rebel_support_efficiency = 0.50
 	diplomats = 1
@@ -1506,9 +1617,12 @@ the_stamp_act = {
 	
 	
 	allow = {
-		full_idea_group = economic_ideas
-		full_idea_group = exploration_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	global_trade_power = 0.1
 	global_tariffs = 0.15 
@@ -1558,9 +1672,12 @@ black_chamber_act = {
 	
 	
 	allow = {
-		full_idea_group = spy_ideas
-		full_idea_group = offensive_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	spy_offence = 0.25
 	diplomats = 1
@@ -1589,9 +1706,12 @@ diplomatic_defence_act = {
 	
 	
 	allow = {
-		full_idea_group = diplomatic_ideas
-		full_idea_group = defensive_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 
 	diplomats = 1
 	improve_relation_modifier = 0.2
@@ -1626,9 +1746,12 @@ armed_neutrality_act = {
 	
 	
 	allow = {
-		full_idea_group = defensive_ideas
-		full_idea_group = trade_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	trade_steering = 0.25
 	merchants = 1
@@ -1678,9 +1801,12 @@ the_naval_supremacy_act = {
 	
 	
 	allow = {
-		full_idea_group = naval_ideas
-		full_idea_group = maritime_ideas
-	}	
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }	
 	
 	siege_blockade_progress = 1
 	blockade_efficiency = 0.5
@@ -1714,9 +1840,12 @@ letters_of_marque = {
 	
 	
 	allow = {
-		full_idea_group = offensive_ideas
-		full_idea_group = exploration_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	privateer_efficiency = 0.5
 	capture_ship_chance = 0.25
@@ -1751,9 +1880,12 @@ trained_marines_act = {
 	
 	
 	allow = {
-		full_idea_group = quality_ideas
-		full_idea_group = maritime_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	naval_morale = 0.1
 	allowed_marine_fraction = 0.1
@@ -1787,9 +1919,12 @@ steppe_nomad_migrations_policy = {
 	
 	
 	allow = {
-		full_idea_group = horde_gov_ideas
-		full_idea_group = exploration_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	colonist_placement_chance = 0.05
 	native_uprising_chance = -0.5
@@ -1819,9 +1954,12 @@ riverine_navy_policy = {
 	
 	
 	allow = {
-		full_idea_group = horde_gov_ideas
-		full_idea_group = maritime_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	naval_forcelimit_modifier = 0.1
 	navy_tradition = 1
@@ -1855,9 +1993,12 @@ passport_to_merchants_policy = {
 	
 	
 	allow = {
-		full_idea_group = horde_gov_ideas
-		full_idea_group = trade_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	mercantilism_cost = -0.2
 	global_own_trade_power = 0.1
@@ -1887,9 +2028,12 @@ faith_advisors_policy = {
 	
 	
 	allow = {
-		full_idea_group = theocracy_gov_ideas
-		full_idea_group = diplomatic_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	papal_influence = 1
 	church_power_modifier = 0.15
@@ -1925,9 +2069,12 @@ one_and_true = {
 	
 	
 	allow = {
-		full_idea_group = theocracy_gov_ideas
-		full_idea_group = influence_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	reduced_liberty_desire = 10
 	global_missionary_strength = 0.01
@@ -1957,9 +2104,12 @@ maritime_scribes = {
 	
 	
 	allow = {
-		full_idea_group = theocracy_gov_ideas
-		full_idea_group = maritime_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	naval_tradition_from_battle = 0.5
 	prestige_from_naval = 1
@@ -1990,9 +2140,12 @@ solidarity_policy = { #change name
 	
 	
 	allow = {
-		full_idea_group = theocracy_gov_ideas
-		full_idea_group = trade_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	improve_relation_modifier = 0.15
 	trade_efficiency = 0.1
@@ -2042,9 +2195,12 @@ appeal_to_old_powers_policy = {
 	
 	
 	allow = {
-		full_idea_group = indigenous_ideas
-		full_idea_group = diplomatic_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	diplomatic_reputation = 1
 	improve_relation_modifier = 0.15
@@ -2074,9 +2230,12 @@ indirect_approach_policy = {
 	
 	
 	allow = {
-		full_idea_group = indigenous_ideas
-		full_idea_group = spy_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	movement_speed = 0.1
 	land_attrition = -0.1
@@ -2110,9 +2269,12 @@ loyalty_to_the_land_policy = {
 	
 	
 	allow = {
-		full_idea_group = indigenous_ideas
-		full_idea_group = influence_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	diplomatic_upkeep = 1
 	liberty_desire_from_subject_development = -0.15
@@ -2142,9 +2304,12 @@ commercial_tribes_policy = {
 	
 	
 	allow = {
-		full_idea_group = indigenous_ideas
-		full_idea_group = trade_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	trade_range_modifier = 0.15
 	range = 0.25
@@ -2174,9 +2339,12 @@ canoe_expertise_policy = {
 	
 	
 	allow = {
-		full_idea_group = indigenous_ideas
-		full_idea_group = maritime_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	disengagement_chance = 0.25
 
@@ -2208,9 +2376,12 @@ the_spy_network_act = {
 	
 	
 	allow = {
-		full_idea_group = infrastructure_ideas
-		full_idea_group = spy_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	envoy_travel_time = -0.25
 	spy_offence = 0.5
@@ -2240,9 +2411,12 @@ the_smooth_integration_act = {
 	
 	
 	allow = {
-		full_idea_group = infrastructure_ideas
-		full_idea_group = diplomatic_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	diplomatic_reputation = 1 
 	years_to_integrate_personal_union = -10
@@ -2272,9 +2446,12 @@ global_trade_networks_act = {
 	
 	
 	allow = {
-		full_idea_group = infrastructure_ideas
-		full_idea_group = trade_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	global_trade_goods_size_modifier = 0.1
 	global_trade_power = 0.1
@@ -2304,9 +2481,12 @@ colonial_boost_act = {
 	
 	
 	allow = {
-		full_idea_group = infrastructure_ideas
-		full_idea_group = exploration_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	colony_development_boost = 1
 
@@ -2335,9 +2515,12 @@ sailor_efficiency_act = {
 	
 	
 	allow = {
-		full_idea_group = infrastructure_ideas
-		full_idea_group = maritime_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	sailor_maintenance_modifer = -0.2
 	global_ship_repair = 0.25
@@ -2367,9 +2550,12 @@ diplomatic_consolidation_act = {
 	
 	
 	allow = {
-		full_idea_group = infrastructure_ideas
-		full_idea_group = influence_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	monthly_favor_modifier = 0.5
 	can_chain_claim = yes 
@@ -2399,9 +2585,12 @@ centralization_power_act = {
 	
 	
 	allow = {
-		full_idea_group = infrastructure_ideas
-		full_idea_group = court_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	max_absolutism = 10 
 	yearly_corruption = -0.1
@@ -2433,9 +2622,12 @@ loyal_conduct_act = {
 	
 	
 	allow = {
-		full_idea_group = mercenary_ideas
-		full_idea_group = spy_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	global_spy_defence = 0.33
 	defensiveness = 0.15
@@ -2465,9 +2657,12 @@ diplomatic_arms_act = {
 	
 	
 	allow = {
-		full_idea_group = mercenary_ideas
-		full_idea_group = diplomatic_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	diplomatic_upkeep = 2
 	
@@ -2496,9 +2691,12 @@ merchants_hire_act = {
 	
 	
 	allow = {
-		full_idea_group = mercenary_ideas
-		full_idea_group = trade_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	global_ship_trade_power = 0.33
 	light_ship_cost = -0.1
@@ -2528,9 +2726,12 @@ transportation_act = {
 	
 	
 	allow = {
-		full_idea_group = mercenary_ideas
-		full_idea_group = exploration_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	privateer_efficiency = 0.5
 	transport_attrition = -0.5
@@ -2560,9 +2761,12 @@ maritime_expertise_act = {
 	
 	
 	allow = {
-		full_idea_group = mercenary_ideas
-		full_idea_group = maritime_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	allowed_marine_fraction = 0.1
 	global_ship_cost = -0.1
@@ -2592,9 +2796,12 @@ client_state_act = {
 	
 	
 	allow = {
-		full_idea_group = mercenary_ideas
-		full_idea_group = influence_ideas 
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	vassal_forcelimit_bonus = 0.5
 	allow_client_states = yes 
@@ -2624,9 +2831,12 @@ native_emissaries_act = {
 	
 	
 	allow = {
-		full_idea_group = indigenous_ideas
-		full_idea_group = court_ideas
-	}
+      OR = { 
+        always = yes
+        full_idea_group = innovativeness_ideas
+        full_idea_group = spy_ideas
+      }
+     }
 	
 	monthly_federation_favor_growth = 0.2
 	ae_impact = -0.1
