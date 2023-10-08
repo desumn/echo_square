@@ -1436,6 +1436,11 @@ mercenary_ideas = {
 mercenary_ideas = {
 	category = MIL 
 
+	trigger = {
+		primitives = no
+		always = no
+	}
+
 	bonus = {
 		allow_mercenary_drill = yes
 		possible_dip_policy = 1
