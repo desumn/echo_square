@@ -1,7 +1,8 @@
 #4212 - Jiazhou
 
-owner = SHU
-controller = SHU
+owner = CYI
+controller = CYI
+add_core = CYI
 add_core = MNG
 culture = sichuanese
 religion = confucianism

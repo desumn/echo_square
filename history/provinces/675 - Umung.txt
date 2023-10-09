@@ -1,7 +1,7 @@
 #675 - Qujing
 
-owner = MNG
-controller = MNG
+owner = CYI
+controller = CYI
 add_core = MNG
 add_core = CYI
 culture = yi
