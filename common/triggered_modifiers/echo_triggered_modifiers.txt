@@ -209,14 +209,57 @@ TUN = {
 	}
 	
 	trigger = {
-		owns_core_province = 124
-		owns_core_province = 125
-		owns_core_province = 126
-		owns_core_province = 4736
-		owns_core_province = 4737
-		owns_core_province = 2982
+		sicily_area = {
+			owns_core_province = TUN
+		}
+		western_sicily_area = {
+			owns_core_province = TUN
+		}
 		owns_core_province = 123
 	}
-	lande_morale = 0.05
+	land_morale = 0.05
 	discipline =)0.025
 }
+
+ENG = {
+	potential = {
+		tag = ENG
+		tag = IRE
+		tag = GBR
+	}
+	
+	trigger = {
+		normandy_area = {
+			owns_core_province = PREV
+		}	
+	}
+	infantry_power = 0.1
+}
+
+SUN = {
+	potential = {
+		tag = SUN
+		tag = MSA
+	}
+	
+	trigger = {
+		banten_area = {
+			owns_core_province = PREV
+		}
+		west_java_area = {
+			owns_core_province = PREV
+		}	
+		central_java_area = {
+			owns_core_province = PREV
+		}	
+		east_java_area = {
+			owns_core_province = PREV
+		}	
+		surabaya_area = {
+			owns_core_province = PREV
+		}
+		owns_core_province = 631	
+	}
+	galley_power = 0.15
+}
+
