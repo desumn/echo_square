@@ -201,5 +201,22 @@ TUN = {
 	}
 	lande_morale = 0.05
 	discipline =)0.025
+}
 
+TUN = {
+	potential = {
+		tag = TUN
+	}
+	
+	trigger = {
+		owns_core_province = 124
+		owns_core_province = 125
+		owns_core_province = 126
+		owns_core_province = 4736
+		owns_core_province = 4737
+		owns_core_province = 2982
+		owns_core_province = 123
+	}
+	lande_morale = 0.05
+	discipline =)0.025
 }
