@@ -353,33 +353,3 @@ country_event = {
 		}
 	}	
 }
-
-country_event = {
-    id = echo.5
-    title = echo.5.t
-    desc = echo.5.d
-    picture = COURT_eventPicture
-    is_triggered_only = true
-	hidden = true
-	
-	immediate = {
-		set_variable = {
-    		which = ADM_policies
-    		value = 0
-		}
-		set_variable = {
-    		which = DIP_policies
-    		value = 0
-		}
-		set_variable = {
-    		which = MIL_policies
-    		value = 0
-		}
-
-	}
-
-    option = {
-		name = echo.5.a
-		ai_chance = { factor = 100 }
-	}
-}
