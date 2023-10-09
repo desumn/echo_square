@@ -1,7 +1,7 @@
 #4199 - Tongren
 
-owner = CHI
-controller = CHI
+owner = CMI
+controller = CMI
 add_core = MNG
 culture = miao
 religion = animism
