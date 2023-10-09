@@ -1,7 +1,7 @@
 #401 - Dhofar
 
-owner = MHR
-controller = MHR
+owner = ORM
+controller = ORM
 add_core = ORM
 culture = mahri_culture
 religion = sunni

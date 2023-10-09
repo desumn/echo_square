@@ -4,4 +4,5 @@ tags={
 }
 name="echo²"
 supported_version="1.35.6"
-path="mod/echo_square"
+path="C:/users/steamuser/Documents/Paradox Interactive/Europa Universalis IV/mod/echo_square"
+remote_file_id="3047954782"
