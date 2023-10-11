@@ -199,8 +199,9 @@ TUN = {
 		}
 		owns_core_province = 123
 	}
+
 	land_morale = 0.05
-	discipline =)0.025
+	discipline = 0.025
 }
 
 ENG = {
@@ -215,6 +216,7 @@ ENG = {
 			owns_core_province = PREV
 		}	
 	}
+
 	infantry_power = 0.1
 }
 
@@ -242,6 +244,7 @@ SUN = {
 		}
 		owns_core_province = 631	
 	}
+	
 	galley_power = 0.15
 }
 
