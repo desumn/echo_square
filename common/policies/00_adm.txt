@@ -11,18 +11,10 @@ the_combination_act = {
 	
 	production_efficiency = 0.20
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -64,18 +56,10 @@ the_court_of_wards_and_liveries = {
 	global_tax_modifier = 0.10
 	cavalry_cost = -0.10
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -129,18 +113,10 @@ formalized_measures = {
 	global_tax_modifier = 0.10
 	republican_tradition = 0.2
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -174,18 +150,10 @@ agricultural_cultivations = {
 	land_maintenance_modifier = -0.05
 	land_forcelimit_modifier = 0.1
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -228,18 +196,10 @@ the_espionage_act = {
 	stability_cost_modifier = -0.25
 	diplomats = 1
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -260,18 +220,10 @@ manueline_architecture = {
 
 	build_cost = -0.15
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -297,18 +249,10 @@ the_royal_commission_act = {
 	yearly_corruption = -0.15
 	advisor_cost = -0.2
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -331,18 +275,10 @@ edict_of_resistance = {
 	global_unrest = -1
 	hostile_attrition = 1
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -382,18 +318,10 @@ public_welfare_act = {
 	development_cost_in_primary_culture = -0.1
 	stability_cost_modifier = -0.25
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -435,18 +363,10 @@ the_spy_discovery_act = {
 	advisor_pool = 2
 	harsh_treatment_cost = -0.25
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -467,18 +387,10 @@ enforce_religious_law = {
 
 	global_missionary_strength = 0.02
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -520,18 +432,10 @@ the_tolerance_act = {
 	tolerance_heretic = 2
 	rival_border_fort_maintenance = -0.5
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -573,18 +477,10 @@ vassal_taxation_policy = {
 	vassal_income = 0.2
 	reduced_liberty_desire_on_same_continent = 10
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -626,18 +522,10 @@ the_pioneer_policy = {
 	auto_explore_adjacent_to_colony = yes
 	colonist_placement_chance = 0.05
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -660,18 +548,10 @@ land_inheritance_act = {
 	global_tax_modifier = 0.1
 	global_manpower_modifier = 0.1
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -712,18 +592,10 @@ the_witchcraft_act = {
 	global_unrest = -1
 	global_missionary_strength = 0.01
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -783,18 +655,10 @@ the_education_act = {
 	prestige = 0.5
 	advisor_cost = -0.1
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -818,18 +682,10 @@ policy_of_calculate_delay = {
 	global_missionary_strength = 0.01
  
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -873,18 +729,10 @@ the_loyalty_act = {
 	fabricate_claims_cost = -0.25
  
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -926,18 +774,10 @@ exchange_of_ideas = {
 	idea_cost = -0.1
 	global_institution_spread = 0.2
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -959,18 +799,10 @@ vassal_obligations_act = {
 	diplomatic_upkeep = 1 
 	vassal_forcelimit_bonus = 1
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1012,18 +844,10 @@ foreign_advisors = {
 	advisor_cost = -0.1
 	ae_impact = -0.1
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1044,18 +868,10 @@ vassal_integration_act = {
 	
 	diplomatic_annexation_cost = -0.15
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1097,18 +913,10 @@ overseas_dominions = {
 	
 	reduced_liberty_desire = 15
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1150,18 +958,10 @@ enlightened_aristocracy = {
 	production_efficiency = 0.1
 	religious_unity = 0.25
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1224,18 +1024,10 @@ the_liberation_act = {
 	global_unrest = -1
 	years_of_nationalism = -5
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1274,18 +1066,10 @@ visionary_thinkers = {
 	innovativeness_gain = 0.5
 	army_tradition_decay = -0.01
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1307,18 +1091,10 @@ the_transportation_act = {
 	global_trade_goods_size_modifier = 0.1
 	production_efficiency = 0.1
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1362,18 +1138,10 @@ harbour_administration = {
 	embracement_cost = -0.2
 	global_ship_recruit_speed = -0.1
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1417,18 +1185,10 @@ supply_convoys = {
 	state_maintenance_modifier = -0.5
 	liberty_desire_from_subject_development = -0.25
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1472,18 +1232,10 @@ cultural_recognition_act = {
 	num_accepted_cultures = 1
 	global_institution_spread = 0.1
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1511,18 +1263,10 @@ the_licensing_of_the_press_act = {
 	meritocracy = 0.5
 	reform_progress_growth = 0.2
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1546,18 +1290,10 @@ the_dissolution_act = {
 	global_tax_modifier = 0.15
 	global_autonomy = -0.05
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1623,18 +1359,10 @@ the_statute_of_monopolies = {
 	trade_efficiency = 0.1
 
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1698,18 +1426,10 @@ taxation_with_representation = {
 	production_efficiency = 0.1
 	global_manpower_modifier = 0.1
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1754,18 +1474,10 @@ cultural_understanding = {
 	global_unrest = -1
 	rebel_support_efficiency = 1
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1809,18 +1521,10 @@ the_citrus_statute = {
 	global_tax_modifier = 0.2
 	sunk_ship_morale_hit_recieved = -0.25
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1847,18 +1551,10 @@ diplomatic_cooperation_act = {
 	diplomatic_reputation = 1
 
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1884,18 +1580,10 @@ the_banking_system = {
 	trade_efficiency = 0.1
 
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1936,18 +1624,10 @@ church_sponsored_guilds = {
 	global_trade_goods_size_modifier = 0.1
 	global_missionary_strength = 0.01
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1991,18 +1671,10 @@ anti_heresy_act = {
 	religious_unity = 0.2
 	global_heretic_missionary_strength = 0.03
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2046,18 +1718,10 @@ steppe_supplies_policy = {
 	global_manpower_modifier = 0.1
 	manpower_recovery_speed = 0.15
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2086,18 +1750,10 @@ to_the_ground_policy = {
 	raze_power_gain = 0.33
 	horde_unity = 1
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2121,18 +1777,10 @@ calming_the_tides_policy = {
 	global_unrest = -2
 	prestige = 0.5
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2173,18 +1821,10 @@ esprit_de_corps_policy = {
 	years_of_nationalism = -5
 	global_missionary_strength = 0.01
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2225,18 +1865,10 @@ otto_per_mille = {
 	core_creation = -0.05
 	years_of_nationalism = -5
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2277,18 +1909,10 @@ religious_spread_policy = {
 	global_missionary_strength = 0.01
 	tolerance_own = 1 
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2332,18 +1956,10 @@ omnism_policy = {
 	tolerance_heathen = 2
 	tolerance_heretic = 2
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2386,18 +2002,10 @@ ora_et_labora_policy = {
 	global_trade_goods_size_modifier = 0.05
 	land_attrition = -0.2
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2441,18 +2049,10 @@ administration_of_sacred_land_policy = {
 	land_maintenance_modifier = -0.1
 	development_cost = -0.1
 	
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2495,18 +2095,10 @@ shared_land_policy = {
 	
 	build_cost = -0.15
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2534,18 +2126,10 @@ disruptive_innovation_policy = {
 	development_cost = -0.05
 	global_institution_spread = 0.2
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2569,18 +2153,10 @@ ancestor_worship_policy = {
 	missionaries = 1
 	tolerance_own = 1
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2606,18 +2182,10 @@ aristocratic_rule_act = {
 	governing_capacity_modifier = 0.1
 	global_autonomy = -0.05
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2640,18 +2208,10 @@ plutocratic_rule_act = {
 	
 	global_prov_trade_power_modifier = 0.25
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2675,18 +2235,10 @@ theocratic_rule_act = {
 	missionaries = 1 
 	prestige_per_development_from_conversion = 0.5
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2711,18 +2263,10 @@ head_of_state_act = {
 	no_stability_loss_on_monarch_death = yes  
 	monarch_lifespan = 0.25
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2746,18 +2290,10 @@ zealous_court_act = {
 	warscore_cost_vs_other_religion = -0.05
 	tolerance_own = 1 
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2781,18 +2317,10 @@ financial_miracle_act = {
 	production_efficiency = 0.1
 	same_culture_advisor_cost = -0.1
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2816,18 +2344,10 @@ subject_obligations_act = {
 	reduced_liberty_desire = 15
 	global_tariffs = 0.1
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2851,18 +2371,10 @@ big_government_act = {
 	core_creation = -0.05
 	global_tax_modifier = 0.15
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2885,18 +2397,10 @@ humanitarian_administration_act = {
 	
 	num_accepted_cultures = 2
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2922,18 +2426,10 @@ blessed_construction_act = {
 	build_cost = -0.1 
 	
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2957,18 +2453,10 @@ military_innovation_act = {
 	mil_advisor_cost = -0.33
 	mil_tech_cost_modifier = -0.1
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2992,18 +2480,10 @@ efficient_war_taxes_act = {
 	global_tax_modifier = 0.15
 	possible_condottieri = 1 
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -3027,18 +2507,10 @@ peace_keeping_force_act = {
 	harsh_treatment_cost = -0.25
 	global_rebel_suppression_efficiency = 1
 
-    effect = { 
-      change_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = ADM_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {

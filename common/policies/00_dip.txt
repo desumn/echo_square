@@ -13,18 +13,10 @@ innovative_payment_techniques_act = {
 	
 	mercenary_cost = -0.33
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -47,18 +39,10 @@ plutocratic_ethos_act = {
 	
 	reform_progress_growth = 0.25
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -82,18 +66,10 @@ clan_unity_act = {
 	horde_unity = 1
 	ae_impact = -0.1
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -117,18 +93,10 @@ the_recruiting_act = {
 	global_sailors_modifier = 0.25
 	allowed_marine_fraction = 0.1
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -172,18 +140,10 @@ hold_the_weather_gauge = {
 	leader_naval_manuever = 1
 	ship_durability = 0.05
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -207,18 +167,10 @@ the_wooden_wall = {
 	global_ship_cost = -0.1
 	naval_forcelimit_modifier = 0.15
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -245,18 +197,10 @@ the_importation_act = {
 	trade_efficiency = 0.1
 	mercantilism_cost = -0.2
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -301,18 +245,10 @@ colonial_expansions = {
 	global_colonial_growth = 15
 	native_uprising_chance = -0.5
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -346,18 +282,10 @@ beneficial_neglect = {
 	global_trade_power = 0.1
 
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -412,18 +340,10 @@ restrictions_for_colonies = {
 	global_missionary_strength = 0.02
 	liberty_desire_from_subject_development = -0.15
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -492,18 +412,10 @@ naval_infrastructure_act = {
 	naval_forcelimit_modifier = 0.33
 
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -547,18 +459,10 @@ new_naval_tactis = {
 	heavy_ship_power = 0.1
 
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -585,18 +489,10 @@ trade_connection_policy = {
 	global_foreign_trade_power = 0.30
 	merchants = 1
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -635,18 +531,10 @@ naval_secrecy_act = {
 	sunk_ship_morale_hit_recieved = -0.1
 	naval_morale = 0.1
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -673,18 +561,10 @@ streamlined_galley_production = {
 	galley_cost = -0.15
 	galley_power = 0.15
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -710,18 +590,10 @@ cloth_quality_edict = {
      }
 	trade_efficiency = 0.15
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -765,18 +637,10 @@ production_quota_act = {
 	global_trade_goods_size_modifier = 0.15
  
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -800,18 +664,10 @@ encouragement_of_merchant_navy = {
 	trade_steering = 0.2
  
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -856,18 +712,10 @@ commercial_embassies = {
 	global_trade_power = 0.1
 	diplomatic_reputation = 1
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -908,18 +756,10 @@ mandatory_service = {
 	may_recruit_female_generals = yes
 	female_advisor_chance = 0.25
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -943,18 +783,10 @@ professional_diplomatic_corps = {
 	diplomatic_reputation = 1
 	war_exhaustion = -0.05
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -980,18 +812,10 @@ colonial_companies_act = {
 	range = 0.20
 	global_colonial_growth = 10
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1022,18 +846,10 @@ protected_shipping_lanes = {
 	light_ship_cost = -0.15
 	global_ship_trade_power = 0.2
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1061,18 +877,10 @@ chaplains_of_the_fleet = {
 	naval_morale = 0.1
 	recover_navy_morale_speed = 0.1
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1100,18 +908,10 @@ multilingual_diplomats = {
 	num_accepted_cultures = 1
 	improve_relation_modifier = 0.2
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1135,18 +935,10 @@ native_assimilation_act = {
 	global_colonial_growth = 10
 	native_assimilation = 0.5
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1178,18 +970,10 @@ the_foreign_aid_act = {
 	diplomatic_upkeep = 1
 	diplomatic_reputation = 1
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1212,18 +996,10 @@ cultural_unity = {
 	
 	culture_conversion_cost = -0.15
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1247,18 +1023,10 @@ terms_of_surrender_statute = {
 	capture_ship_chance = 0.33
 
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1281,18 +1049,10 @@ skilled_cartographers = {
 	
 	global_naval_engagement_modifier = 0.2
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1323,18 +1083,10 @@ fortified_trading_posts = {
 	
 	global_ship_trade_power = 0.33
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1378,18 +1130,10 @@ the_integrated_administration_act = {
 	vassal_income = 0.25
 	diplomatic_annexation_cost = -0.1
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1433,18 +1177,10 @@ the_cooperation_act = {
 	caravan_power = 0.33
 	merchants = 1
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1475,18 +1211,10 @@ record_keeping_act = {
 	diplomats = 1
 	global_autonomy = -0.05
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1510,18 +1238,10 @@ colonial_administration_act = {
 	colonist_placement_chance = 0.05
 
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1552,18 +1272,10 @@ naval_school_act = {
 
 	navy_tradition = 1
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1593,18 +1305,10 @@ the_foreign_support_act = {
 	rebel_support_efficiency = 0.50
 	diplomats = 1
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1627,18 +1331,10 @@ the_stamp_act = {
 	global_trade_power = 0.1
 	global_tariffs = 0.15 
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1682,18 +1378,10 @@ black_chamber_act = {
 	spy_offence = 0.25
 	diplomats = 1
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1716,18 +1404,10 @@ diplomatic_defence_act = {
 	diplomats = 1
 	improve_relation_modifier = 0.2
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1756,18 +1436,10 @@ armed_neutrality_act = {
 	trade_steering = 0.25
 	merchants = 1
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1811,18 +1483,10 @@ the_naval_supremacy_act = {
 	siege_blockade_progress = 1
 	blockade_efficiency = 0.5
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1851,18 +1515,10 @@ letters_of_marque = {
 	capture_ship_chance = 0.25
 
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1890,18 +1546,10 @@ trained_marines_act = {
 	naval_morale = 0.1
 	allowed_marine_fraction = 0.1
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1929,18 +1577,10 @@ steppe_nomad_migrations_policy = {
 	colonist_placement_chance = 0.05
 	native_uprising_chance = -0.5
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1964,18 +1604,10 @@ riverine_navy_policy = {
 	naval_forcelimit_modifier = 0.1
 	navy_tradition = 1
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2003,18 +1635,10 @@ passport_to_merchants_policy = {
 	mercantilism_cost = -0.2
 	global_own_trade_power = 0.1
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2044,18 +1668,10 @@ faith_advisors_policy = {
 	monthly_piety = 0.001
 	diplomatic_reputation = 1
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2079,18 +1695,10 @@ one_and_true = {
 	reduced_liberty_desire = 10
 	global_missionary_strength = 0.01
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2114,18 +1722,10 @@ maritime_scribes = {
 	naval_tradition_from_battle = 0.5
 	prestige_from_naval = 1
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2150,18 +1750,10 @@ solidarity_policy = { #change name
 	improve_relation_modifier = 0.15
 	trade_efficiency = 0.1
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2205,18 +1797,10 @@ appeal_to_old_powers_policy = {
 	diplomatic_reputation = 1
 	improve_relation_modifier = 0.15
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2240,18 +1824,10 @@ indirect_approach_policy = {
 	movement_speed = 0.1
 	land_attrition = -0.1
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2279,18 +1855,10 @@ loyalty_to_the_land_policy = {
 	diplomatic_upkeep = 1
 	liberty_desire_from_subject_development = -0.15
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2314,18 +1882,10 @@ commercial_tribes_policy = {
 	trade_range_modifier = 0.15
 	range = 0.25
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2348,18 +1908,10 @@ canoe_expertise_policy = {
 	
 	disengagement_chance = 0.25
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2386,18 +1938,10 @@ the_spy_network_act = {
 	envoy_travel_time = -0.25
 	spy_offence = 0.5
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2421,18 +1965,10 @@ the_smooth_integration_act = {
 	diplomatic_reputation = 1 
 	years_to_integrate_personal_union = -10
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2456,18 +1992,10 @@ global_trade_networks_act = {
 	global_trade_goods_size_modifier = 0.1
 	global_trade_power = 0.1
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2490,18 +2018,10 @@ colonial_boost_act = {
 	
 	colony_development_boost = 1
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2525,18 +2045,10 @@ sailor_efficiency_act = {
 	sailor_maintenance_modifer = -0.2
 	global_ship_repair = 0.25
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2560,18 +2072,10 @@ diplomatic_consolidation_act = {
 	monthly_favor_modifier = 0.5
 	can_chain_claim = yes 
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2595,18 +2099,10 @@ centralization_power_act = {
 	max_absolutism = 10 
 	yearly_corruption = -0.1
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2632,18 +2128,10 @@ loyal_conduct_act = {
 	global_spy_defence = 0.33
 	defensiveness = 0.15
 
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2666,18 +2154,10 @@ diplomatic_arms_act = {
 	
 	diplomatic_upkeep = 2
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2701,18 +2181,10 @@ merchants_hire_act = {
 	global_ship_trade_power = 0.33
 	light_ship_cost = -0.1
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2736,18 +2208,10 @@ transportation_act = {
 	privateer_efficiency = 0.5
 	transport_attrition = -0.5
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2771,18 +2235,10 @@ maritime_expertise_act = {
 	allowed_marine_fraction = 0.1
 	global_ship_cost = -0.1
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2806,18 +2262,10 @@ client_state_act = {
 	vassal_forcelimit_bonus = 0.5
 	allow_client_states = yes 
 	
-    effect = { 
-      change_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = DIP_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {

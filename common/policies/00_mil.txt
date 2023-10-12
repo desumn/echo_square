@@ -15,18 +15,10 @@ privy_council_establishment_act = {
 	defensiveness = 0.15
 	yearly_corruption = -0.1
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -55,18 +47,10 @@ the_mercenary_registration_act = {
 	global_manpower_modifier = 0.1
 	mercenary_manpower = 0.2
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -93,18 +77,10 @@ the_provincial_taxation_system = {
 	land_maintenance_modifier = -0.05
 	manpower_recovery_speed = 0.15
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -131,18 +107,10 @@ the_mining_act = {
 	
 	leader_land_fire = 1
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -171,18 +139,10 @@ the_liquor_act = {
 	recover_army_morale_speed = 0.15
 	reinforce_speed = 0.15
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -204,18 +164,10 @@ horse_artillery = {
      }
 	artillery_power = 0.1
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -255,18 +207,10 @@ public_road_act = {
 	movement_speed = 0.10
 	trade_efficiency = 0.10
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -310,18 +254,10 @@ superior_supply_system = {
 	manpower_recovery_speed = 0.1
 	land_attrition = -0.25
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -350,18 +286,10 @@ modern_siege_weapons = {
 	siege_ability = 0.1
 	leader_siege = 1
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -390,18 +318,10 @@ superior_fortification_act = {
 	fort_maintenance_modifier = -0.33
 
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -424,18 +344,10 @@ modern_firearm_techniques = {
 	
 	infantry_power = 0.15
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -471,18 +383,10 @@ the_garrison_act = {
 	fort_maintenance_modifier = -0.25
 	garrison_size = 0.15
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -506,18 +410,10 @@ military_zeal_act = {
 	morale_damage = 0.05
 	siege_ability = 0.1
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -545,18 +441,10 @@ field_priests = {
 	land_morale = 0.1
 	recover_army_morale_speed = 0.05
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -584,18 +472,10 @@ pen_rely_on_sword_act = {
 	land_forcelimit_modifier = 0.1
 
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -638,18 +518,10 @@ local_army_organisation = {
 	global_regiment_cost = -0.1
 	recover_army_morale_speed = 0.15
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -672,18 +544,10 @@ underhanded_diplomacy_act = {
 	spy_offence = 0.33
 	diplomatic_reputation = 1
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -708,18 +572,10 @@ hired_adventurers_act = {
 	leader_land_manuever = 1
 
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -748,18 +604,10 @@ the_tenures_abolition_act = {
 	army_tradition = 0.5
 	diplomats = 1
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -783,18 +631,10 @@ colonial_garrisons = {
 	land_forcelimit_modifier = 0.1
 	global_colonial_growth = 10
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -826,18 +666,10 @@ the_maritime_intelligencer_unit = {
 	siege_blockade_progress = 1
 	global_naval_engagement_modifier = 0.1
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -865,18 +697,10 @@ the_nautic_education_act = {
 	recover_navy_morale_speed = 0.15
 	leader_naval_fire = 1
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -908,18 +732,10 @@ zealous_captains = {
 	sunk_ship_morale_hit_recieved = -0.10
 	leader_naval_shock = 1
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -951,18 +767,10 @@ autonomous_estates = {
 	all_estate_loyalty_equilibrium = 0.05
 	vassal_forcelimit_bonus = 1
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1005,18 +813,10 @@ inspirational_leaders = {
 	
 	leader_land_shock = 1
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1044,18 +844,10 @@ the_naval_inspection_act = {
 	ship_durability = 0.05
 	recover_navy_morale_speed = 0.1
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1083,18 +875,10 @@ the_preparation_act = {
 	land_attrition = -0.25
 	war_exhaustion = -0.05
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1122,18 +906,10 @@ local_militias = {
 	war_exhaustion = -0.03
 	garrison_damage = 0.5
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1157,18 +933,10 @@ foreign_conscription_centers = {
 	reinforce_cost_modifier = -0.25
 	diplomatic_upkeep = 1
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1212,18 +980,10 @@ guerilla_warfare = {
 	hostile_attrition = 1
 	shock_damage = 0.05
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1245,18 +1005,10 @@ weapon_quality_standards = {
 	
 	discipline = 0.05
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1284,18 +1036,10 @@ noble_loyalty_act = {
 	nobles_loyalty_modifier = 0.1
 	cavalry_power = 0.1
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1333,18 +1077,10 @@ the_colonial_nobility_act = {
 
 	global_manpower_modifier = 0.2
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1368,18 +1104,10 @@ nobles_in_navy_act = {
 	navy_tradition_decay = -0.005
 	
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1406,18 +1134,10 @@ military_allotment_act = {
 
 	global_manpower_modifier = 0.2
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1441,18 +1161,10 @@ unified_army_command = {
 	vassal_forcelimit_bonus = 1
 	reduced_liberty_desire = 10
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1495,18 +1207,10 @@ trade_kontor_network = {
 	merchants = 1
 	global_regiment_cost = -0.1
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1550,18 +1254,10 @@ deserteur_act = {
 	army_tradition_decay = -0.005
 	reinforce_speed = 0.15
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1601,18 +1297,10 @@ war_horses_policy = {
 	army_tradition = 0.5
 	shock_damage = 0.1
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1652,18 +1340,10 @@ the_best_defense_policy = {
 	shock_damage_received = -0.05
 	fire_damage_received = -0.05
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1691,18 +1371,10 @@ omne_datum_optimum_policy = {
 	manpower_in_true_faith_provinces = 0.15
 	recover_army_morale_speed = 0.1
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1729,18 +1401,10 @@ wielders_of_the_flaming_sword_policy = {
 
 	land_morale = 0.1
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1768,18 +1432,10 @@ the_three_sisters_policy = {
 	land_morale = 0.05
 	infantry_cost = -0.15
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1807,63 +1463,16 @@ by_the_people_for_the_people_policy = {
 	defensiveness = 0.25
 	garrison_size = 0.1
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
 		factor = 1.0
 		modifier = {
 			factor = 1.5
-			is_at_war = yes
-		}
-	}
-}
-
-war_on_our_terms_policy = {
-	monarch_power = MIL
-
-	
-	
-	allow = {
-      OR = { 
-        always = yes
-        full_idea_group = innovativeness_ideas
-        full_idea_group = spy_ideas
-      }
-     }
-
-	discipline = 0.025
-	land_morale = 0.1
-	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
-    }
-
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
-    }
-
-	ai_will_do = {
-		factor = 1.0
-		modifier = {
-			factor = 2.5
 			is_at_war = yes
 		}
 	}
@@ -1885,18 +1494,10 @@ fear_tactics_policy = {
 	shock_damage = 0.1
 	siege_ability = 0.1
 	
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1924,18 +1525,10 @@ psychological_warfare_policy = {
 	cavalry_flanking = 0.5
 	cavalry_power = 0.1
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -1963,18 +1556,10 @@ kharash_policy = {
 	land_morale = 0.05
 	vassal_forcelimit_bonus = 1.0
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2002,18 +1587,10 @@ my_word_is_my_bond_policy = {
 	siege_ability = 0.1
 	artillery_level_modifier = 1
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2041,18 +1618,10 @@ render_unto_caesar_policy = {
 	global_manpower_modifier = 0.1
 	land_forcelimit_modifier = 0.05
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2082,18 +1651,10 @@ mobile_siege_engines_act = {
 	movement_speed = 0.05
 	artillery_levels_available_vs_fort = 2
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2117,18 +1678,10 @@ bolstered_defence_act = {
 	hostile_attrition = 1 
 	garrison_size = 0.25
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2152,18 +1705,10 @@ handpicked_recruits_act = {
 	drill_gain_modifier = 0.33
 	yearly_army_professionalism = 0.0025
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2187,18 +1732,10 @@ mass_conscription_act = {
 	reinforce_speed = 0.2
 	reinforce_cost_modifier = -0.2
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2222,18 +1759,10 @@ naval_armament_act = {
 	global_ship_recruit_speed = -0.25
 	movement_speed_in_fleet_modifier = 1
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2256,18 +1785,10 @@ mercenary_tactical_movement_act = {
 	
 	mercenary_discipline = 0.05
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2291,18 +1812,10 @@ universal_serfdom_act = {
 	nobles_loyalty_modifier = 0.1
 	global_manpower_modifier = 0.15
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2326,18 +1839,10 @@ gentle_conquest_act = {
 	global_monthly_devastation = -0.25
 	land_maintenance_modifier = -0.1
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2361,18 +1866,10 @@ sharp_wits_act = {
 	power_projection_from_insults = 0.25
 	morale_damage = 0.1
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2397,18 +1894,10 @@ sturdy_argument_act = {
 	morale_damage_received = -0.1
 	
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2432,18 +1921,10 @@ special_forces_act = {
 	special_unit_forcelimit = 0.1
 	yearly_army_professionalism = 0.002
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2467,18 +1948,10 @@ plentiful_materials_act = {
 	artillery_cost = -0.15
 	infantry_cost = -0.1
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2502,18 +1975,10 @@ naval_competence_act = {
 	leader_naval_manuever = 1 
 	leader_naval_fire = 1 
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2537,18 +2002,10 @@ dutiful_mercenaries_act = {
 	land_morale = 0.1
 	global_missionary_strength = 0.02
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
@@ -2572,18 +2029,10 @@ hired_expeditions_act = {
 	force_march_free = yes 
 	recover_army_morale_speed = 0.15
 
-    effect = { 
-      change_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    effect = {
     }
 
-    removed_effect = { 
-      subtract_variable = {
-        which = MIL_policies
-        value = 1
-      }
+    removed_effect = {
     }
 
 	ai_will_do = {
