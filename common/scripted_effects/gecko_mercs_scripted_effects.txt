@@ -16,8 +16,8 @@ gecko_mercs = {
 		gecko_mercs_base_system = {
 			mercenary_cost = 30
 			mercenary_cavalry_cost_multiplier = 2.5
-			development = yes
-			mercenary_forcelimit_percentage = 25
+			development = no
+			mercenary_forcelimit_percentage = 50
 			minor_forcelimit_modifier = 4
 			tiers = 4
 		}
@@ -117,6 +117,10 @@ gecko_mercs_base_system = {
 			export_to_variable = {
 				which = mercenary_forcelimit
 				value = land_forcelimit
+			}
+			change_variable = {
+				which = mercenary_forcelimit
+				value = 20
 			}
 		]
 
