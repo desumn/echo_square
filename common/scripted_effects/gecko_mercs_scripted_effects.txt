@@ -16,9 +16,9 @@ gecko_mercs = {
 		gecko_mercs_base_system = {
 			mercenary_cost = 30
 			mercenary_cavalry_cost_multiplier = 2.5
-			development = no
+			forcelimit = yes
 			mercenary_forcelimit_percentage = 50
-			minor_forcelimit_modifier = 4
+			minor_forcelimit_modifier = 0
 			tiers = 4
 		}
 	]
@@ -118,10 +118,6 @@ gecko_mercs_base_system = {
 				which = mercenary_forcelimit
 				value = land_forcelimit
 			}
-			change_variable = {
-				which = mercenary_forcelimit
-				value = 20
-			}
 		]
 
 		[[development]
@@ -168,6 +164,10 @@ gecko_mercs_base_system = {
 		divide_variable = {
 			which = mercenary_forcelimit
 			value = 100
+		}
+		change_variable = {
+				which = mercenary_forcelimit
+				value = 20
 		}
 		
 		#Smaller nations can receive a larger mercenary force limit
