@@ -165,9 +165,10 @@ gecko_mercs_base_system = {
 			which = mercenary_forcelimit
 			value = 100
 		}
+		# Base force limit
 		change_variable = {
 				which = mercenary_forcelimit
-				value = 20
+				value = 30
 		}
 		
 		#Smaller nations can receive a larger mercenary force limit
