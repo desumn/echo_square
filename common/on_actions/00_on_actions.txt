@@ -34,6 +34,9 @@ on_startup = {
 		flavor_mng.42 #Event for the starting situation of the Ming 
 		#flavor_fra.15000 #Make the French Revolution happen if starting in 1789
 		flavor_mos.1 #Event regarding the Tatar Yoke
+		echo.5 #Inca unification event
+		echo.6 #Aztec unification event
+		echo.7 #Remove the natives
 	}
 	if = {
 		limit = {
@@ -165,28 +168,6 @@ on_startup = {
 			name = decline_of_the_ottomans
 			duration = -1
 			desc = until_end_of_age_desc
-		}
-	}
-
-	if = {
-		limit = {
-			is_year = 1444
-		}
-		INC = {
-			add_adm_tech = 2
-			add_dip_tech = 2
-			add_mil_tech = 2
-		}
-		every_province = {
-			limit = {
-				OR = {
-					culture_group = andean_group
-					culture = cara
-					culture = chachapoyan
-				}
-			}
-			add_core = INC
-			cede_province = INC
 		}
 	}
 	
