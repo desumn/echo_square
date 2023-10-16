@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = chinese_warlord
+technology_group = chinese
+religion = confucianism
+primary_culture = shandong_culture
+capital = 690	#Qingzhou
+
+1390.10.9 = {
+	monarch = {
+		name = "Vladimir"
+		dynasty = "Poutine"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

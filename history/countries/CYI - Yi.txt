@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = yi
+religion = animism
+technology_group = chinese
+capital = 675	# Umung
+
+1390.10.9 = {
+	monarch = {
+		name = "Jean-Michel"
+		dynasty = "Blanquer"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

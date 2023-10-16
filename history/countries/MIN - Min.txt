@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = chinese_warlord
+technology_group = chinese
+religion = confucianism
+primary_culture = chimin
+capital = 1829	#Quanzhou
+
+1390.10.9 = {
+	monarch = {
+		name = "Emmanuel"
+		dynasty = "Macron"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
