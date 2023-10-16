@@ -832,7 +832,6 @@ army_tradition = {
 	janissaries_loyalty_modifier = 0.05
 	allowed_tercio_fraction = 0.1
 	allowed_samurai_fraction = 0.1
-	yearly_army_professionalism = 0.02
 }
 
 navy_tradition = {
