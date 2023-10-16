@@ -667,10 +667,10 @@ gecko_mercs_army_professionalism_cost = {
 					has_country_modifier = pol_cheap_ap_mercs_modifier
 				}
 			}
-			add_army_professionalism = -0.001
+			add_army_professionalism = -0.0
 		}
 		else = {
-			add_army_professionalism = -0.002
+			add_army_professionalism = -0.0
 		}
 	}
 }
