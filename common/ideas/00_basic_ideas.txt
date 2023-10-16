@@ -43,7 +43,7 @@ innovativeness_ideas = {
 		land_morale = 0.05
 	}
 	expanded_policies = {
-		possible_policy = 1
+		production_efficiency = 0.1
 	}
 
 	ai_will_do = {
@@ -545,7 +545,7 @@ diplomatic_ideas = {
 		advisor_cost = -0.1
 	}
 	benign_diplomats = {
-		free_policy = 1
+		mercenary_forcelimit = 0.1
 		diplomats = 1
 	}
 	experienced_diplomats  = {
