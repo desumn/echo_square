@@ -167,6 +167,29 @@ on_startup = {
 			desc = until_end_of_age_desc
 		}
 	}
+
+	if = {
+		limit = {
+			is_year = 1444
+		}
+		INC = {
+			add_adm_tech = 2
+			add_dip_tech = 2
+			add_mil_tech = 2
+		}
+		every_province = {
+			limit = {
+				OR = {
+					culture_group = andean_group
+					culture = cara
+					culture = chachapoyan
+				}
+			}
+			add_core = INC
+			cede_province = INC
+		}
+	}
+	
 	gecko_mercs = { update = yes on_startup = yes }
 	echo_development_counter = { on_startup = yes }
 }
