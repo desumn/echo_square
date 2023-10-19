@@ -47,9 +47,9 @@ change_estate_land_share = {
 	monarch = {
 		name = "Nyatsimba"
 		dynasty = "Mwenemutapa"
-		adm = 3
-		dip = 0
-		mil = 0
+		adm = 2
+		dip = 3
+		mil = 3
 		leader = { name = "Nyatsimba"	type = general	fire = 2	shock = 3	manuever = 3	siege = 0 }
 	}
 }
