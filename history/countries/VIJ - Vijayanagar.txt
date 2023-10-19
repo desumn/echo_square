@@ -144,7 +144,7 @@ change_rajputs_or_marathas_or_nobles_land_share_effect = {
 		dynasty = "Sangama"
 		ADM = 3
 		DIP = 3
-		MIL = 5
+		MIL = 6
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = scholar_personality

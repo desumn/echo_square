@@ -170,6 +170,12 @@ on_startup = {
 			desc = until_end_of_age_desc
 		}
 	}
+	if = {
+		limit = {
+			tag = VIJ
+		}
+		add_manpower = 10
+	}
 	
 	gecko_mercs = { update = yes on_startup = yes }
 	echo_development_counter = { on_startup = yes }
