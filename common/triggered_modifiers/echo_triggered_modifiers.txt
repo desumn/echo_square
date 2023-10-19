@@ -194,10 +194,12 @@ TUN = {
 		sicily_area = {
 			type = all
 			is_core = PREV
+			owned_by = PREV
 		}
 		western_sicily_area = {
 			type = all
-		    is_core = ROOT
+		    is_core = PREV
+			owned_by = PREV
 		}
 		owns_core_province = 123
 	}
@@ -218,6 +220,7 @@ ENG = {
 	trigger = {
 		normandy_area = {
 			is_core = PREV
+			owned_by = PREV
 		}	
 	}
 
@@ -235,18 +238,23 @@ SUN = {
 	trigger = {
 		banten_area = {
 			is_core = PREV
+			owned_by = PREV
 		}
 		west_java_area = {
 			is_core = PREV
+			owned_by = PREV
 		}	
 		central_java_area = {
 			is_core = PREV
+			owned_by = PREV
 		}	
 		east_java_area = {
 			is_core = PREV
+			owned_by = PREV
 		}	
 		surabaya_area = {
 			is_core = PREV
+			owned_by = PREV
 		}
 		owns_core_province = 631	
 	}
